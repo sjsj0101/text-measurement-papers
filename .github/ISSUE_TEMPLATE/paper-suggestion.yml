@@ -1,0 +1,27 @@
+name: Suggest a paper
+description: Propose a paper on text variables and measurement validation
+title: '[Paper suggestion] '
+body:
+  - type: input
+    id: paper-url
+    attributes:
+      label: Paper URL
+    validations:
+      required: true
+  - type: input
+    id: publication-evidence
+    attributes:
+      label: Official publication or acceptance evidence
+      description: Preprints are welcome as clearly labeled supplementary candidates.
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Contribution to text measurement
+      description: Explain the construct, annotation, adaptation, validation or inference problem addressed.
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Evidence and limitations
+      description: Note what you read, the evaluated setting and any version or metadata uncertainty.

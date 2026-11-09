@@ -1,0 +1,1332 @@
+{
+  "checked_on": "2026-11-09",
+  "coverage_claim": "none",
+  "seed_count": 60,
+  "seed_decisions": [
+    {
+      "seed_number": 1,
+      "catalog_id": "kessler-2025-active-synthetic-data",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 2,
+      "catalog_id": "li-2023-synthetic-data-limitations",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 3,
+      "catalog_id": "yang-2023-stable-lda",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 4,
+      "catalog_id": "dev-2026-class-description-refinement",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 5,
+      "catalog_id": "tunstall-2022-setfit",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 6,
+      "catalog_id": "egami-2023-imperfect-surrogates",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 7,
+      "catalog_id": "wei-2025-expert-hate-speech",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 8,
+      "catalog_id": "pangakis-2024-annotation-distillation",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 9,
+      "catalog_id": "qiao-2021-misclassification-bias",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 10,
+      "catalog_id": "qiao-2025-aggregated-measurement-error",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 11,
+      "catalog_id": "angelopoulos-2023-prediction-powered-inference",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 12,
+      "catalog_id": "yang-2018-mind-the-gap",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 13,
+      "catalog_id": "pillet-2026-rater",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 14,
+      "catalog_id": "schroeder-2025-human-loop-annotation",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 15,
+      "catalog_id": "bagozzi-2011-measurement-meaning",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 16,
+      "catalog_id": "hsieh-2023-distilling-step-by-step",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 17,
+      "catalog_id": "hansen-2026-validating-llm-annotations",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 18,
+      "catalog_id": "jiang-2026-soft-label-uncertainty",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 19,
+      "catalog_id": "plank-2022-human-label-variation",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 20,
+      "catalog_id": "jiang-2022-nli-disagreement",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 21,
+      "catalog_id": "weber-genzel-2024-varierr",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 22,
+      "catalog_id": "moller-2024-parrot-dilemma",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 23,
+      "catalog_id": "li-2024-data-generation-case-study",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 24,
+      "catalog_id": "loughran-2011-financial-dictionaries",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 25,
+      "catalog_id": "gholami-2024-gold",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 26,
+      "catalog_id": "pecher-2026-generators-classifiers",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 27,
+      "catalog_id": "rottger-2021-temporal-adaptation",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 28,
+      "catalog_id": "luu-2022-temporal-misalignment",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 29,
+      "catalog_id": "zhao-2023-expert-industry-assignment",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 30,
+      "catalog_id": "wu-2019-regulatory-focus",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 31,
+      "catalog_id": "abbasi-2018-language-action",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 32,
+      "catalog_id": "humphreys-2017-automated-text-analysis",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 33,
+      "catalog_id": "meng-2018-big-data-paradox",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 34,
+      "catalog_id": "de-kok-2025-chatgpt-textual-analysis",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 35,
+      "catalog_id": "viswanathan-2023-prompt2model",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 36,
+      "catalog_id": "teeni-2023-reciprocal-learning",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 37,
+      "catalog_id": "bucinca-2021-cognitive-forcing",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 38,
+      "catalog_id": null,
+      "decision": "out-of-scope",
+      "reason_zh": "一般IS实施中的用户抵制，不直接研究文本变量构建或测量验证。"
+    },
+    {
+      "seed_number": 39,
+      "catalog_id": "casula-2024-rewrite-abusive-language",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 40,
+      "catalog_id": "saar-tsechansky-2007-decision-centric",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 41,
+      "catalog_id": "ye-2022-progen",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 42,
+      "catalog_id": "mochon-2019-construct-validity",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 43,
+      "catalog_id": "grimmer-2013-text-as-data",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 44,
+      "catalog_id": "boudreau-2001-validation-is",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 45,
+      "catalog_id": "ye-2022-zerogen",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 46,
+      "catalog_id": "wang-2007-explanation-trusting-beliefs",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 47,
+      "catalog_id": "kizilcec-2016-transparency-trust",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 48,
+      "catalog_id": "ribeiro-2020-checklist",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 49,
+      "catalog_id": "gardner-2020-contrast-sets",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 50,
+      "catalog_id": "kolbe-1991-content-analysis",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 51,
+      "catalog_id": "liu-2025-fastsr",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 52,
+      "catalog_id": "yang-2022-deepperson",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 53,
+      "catalog_id": "vandenberg-2000-measurement-invariance",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 54,
+      "catalog_id": "rocklage-2022-certainty-lexicon",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 55,
+      "catalog_id": "he-2022-generate-annotate-learn",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 56,
+      "catalog_id": "gekhman-2023-trueteacher",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 57,
+      "catalog_id": "berger-2019-uniting-tribes",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 58,
+      "catalog_id": "stepanov-2025-gliclass",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 59,
+      "catalog_id": "buschken-2020-sentence-conjunctions",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    },
+    {
+      "seed_number": 60,
+      "catalog_id": "gandhi-2024-datatune",
+      "decision": "included",
+      "reason_zh": "逐条核验记录见论文sources；正式版与预印本合并。"
+    }
+  ],
+  "edith": {
+    "entrypoint": "native FTS5 search",
+    "corpus_records": 41873,
+    "query_count": 74,
+    "summed_query_hits": 263,
+    "unique_returned_hits": 180,
+    "status": "success",
+    "source_database_unchanged": true,
+    "final_included_count": 27,
+    "final_novel_included_count": 4,
+    "screening_counts": {
+      "included": 33,
+      "out-of-scope": 1,
+      "not-selected": 136,
+      "pending-review": 10
+    },
+    "queries": [
+      {
+        "id": "seed-1",
+        "query": "Towards Active Synthetic Data Generation for Finetuning Language Models",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-2",
+        "query": "Synthetic Data Generation with Large Language Models for Text Classification: Potential and Limitations",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-3",
+        "query": "EXTRACTING ACTIONABLE INSIGHTS FROM TEXT DATA: A STABLE TOPIC MODEL APPROACH",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-4",
+        "query": "Beyond Instruction Optimization: Multi-Agent Error-Driven Class Description Refinement for LLM-Based Classification",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-5",
+        "query": "Efficient Few-Shot Learning Without Prompts",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-6",
+        "query": "Using Imperfect Surrogates for Downstream Inference: Design-based Supervised Learning for Social Science Applications of Large Language Models",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-7",
+        "query": "Mitigating Bias in Hate Speech Detection with a Small Number of Expert Annotations: A Prompt-Based Learning Approach",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 2,
+        "returned_count": 2,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-8",
+        "query": "Knowledge Distillation in Automated Annotation: Supervised Text Classification with LLM-Generated Training Labels",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-9",
+        "query": "Correcting Misclassification Bias in Regression Models with Variables Generated via Data Mining",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-10",
+        "query": "Correcting Measurement Error in Regression Models with Variables Constructed from Aggregated Output of Data Mining Models",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-11",
+        "query": "Prediction-powered inference",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-12",
+        "query": "Mind the Gap: Accounting for Measurement Error and Misclassification in Variables Generated via Data Mining",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 2,
+        "returned_count": 2,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-13",
+        "query": "AI-Augmented Content Validation in Behavioral Research: Development and Evaluation of the RATER System",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-14",
+        "query": "Just Put a Human in the Loop? Investigating LLM-Assisted Annotation for Subjective Tasks",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-15",
+        "query": "Measurement and Meaning in Information Systems and Organizational Research: Methodological and Philosophical Foundations",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-16",
+        "query": "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-17",
+        "query": "Validating Large Language Model Annotations",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-18",
+        "query": "Capturing Epistemic Uncertainty in LLM-Based Soft Labeling",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-19",
+        "query": "The “Problem” of Human Label Variation: On Ground Truth in Data, Modeling and Evaluation",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-20",
+        "query": "Investigating Reasons for Disagreement in Natural Language Inference",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-21",
+        "query": "VariErr NLI: Separating Annotation Error from Human Label Variation",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-22",
+        "query": "The Parrot Dilemma: Human-Labeled vs. LLM-augmented Data in Classification Tasks",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-23",
+        "query": "Data Generation Using Large Language Models for Text Classification: An Empirical Case Study",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-24",
+        "query": "When Is a Liability Not a Liability? Textual Analysis, Dictionaries, and 10-Ks",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 3,
+        "returned_count": 3,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-25",
+        "query": "GOLD: Generalized Knowledge Distillation via Out-of-Distribution-Guided Language Data Generation",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-26",
+        "query": "Better as Generators Than Classifiers: Leveraging LLMs and Synthetic Data for Low-Resource Multilingual Classification",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-27",
+        "query": "Temporal Adaptation of BERT and Performance on Downstream Document Classification: Insights from Social Media",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-28",
+        "query": "Time Waits for No One! Analysis and Challenges of Temporal Misalignment",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-29",
+        "query": "Exploiting Expert Knowledge for Assigning Firms to Industries: A Novel Deep Learning Method",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-30",
+        "query": "Operationalizing Regulatory Focus in the Digital Age: Evidence from an E-Commerce Context",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-31",
+        "query": "TEXT ANALYTICS TO SUPPORT SENSE-MAKING IN SOCIAL MEDIA: A LANGUAGE-ACTION PERSPECTIVE",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 2,
+        "returned_count": 2,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-32",
+        "query": "Automated Text Analysis for Consumer Research",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-33",
+        "query": "Statistical Paradises and Paradoxes in Big Data (I): Law of Large Populations, Big Data Paradox, and the 2016 US Presidential Election",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-34",
+        "query": "ChatGPT for Textual Analysis? How to Use Generative LLMs in Accounting Research",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-35",
+        "query": "Prompt2Model: Generating Deployable Models from Natural Language Instructions",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-36",
+        "query": "Reciprocal Human-Machine Learning: A Theory and an Instantiation for the Case of Message Classification",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-37",
+        "query": "To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-Assisted Decision-Making",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-38",
+        "query": "Investigating User Resistance to Information Systems Implementation: A Status Quo Bias Perspective",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-39",
+        "query": "Don’t Augment, Rewrite? Assessing Abusive Language Detection with Synthetic Data",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-40",
+        "query": "Decision-Centric Active Learning of Binary-Outcome Models",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-41",
+        "query": "ProGen: Progressive Zero-shot Dataset Generation via In-context Feedback",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-42",
+        "query": "The importance of construct validity in consumer research",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-43",
+        "query": "Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-44",
+        "query": "Validation in Information Systems Research: A State-of-the-Art Assessment",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 2,
+        "returned_count": 2,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-45",
+        "query": "ZeroGen: Efficient Zero-shot Learning via Dataset Generation",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-46",
+        "query": "Recommendation Agents for Electronic Commerce: Effects of Explanation Facilities on Trusting Beliefs",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-47",
+        "query": "How Much Information? Effects of Transparency on Trust in an Algorithmic Interface",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-48",
+        "query": "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-49",
+        "query": "Evaluating Models’ Local Decision Boundaries via Contrast Sets",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-50",
+        "query": "Content-Analysis Research: An Examination of Applications with Directives for Improving Research Reliability and Objectivity",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-51",
+        "query": "Automating in High-Expertise, Low-Label Environments: Evidence-Based Medicine by Expert-Augmented Few-Shot Learning",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-52",
+        "query": "Getting Personal: A Deep Learning Artifact for Text-Based Measurement of Personality",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-53",
+        "query": "A Review and Synthesis of the Measurement Invariance Literature: Suggestions, Practices, and Recommendations for Organizational Research",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-54",
+        "query": "Beyond Sentiment: The Value and Measurement of Consumer Certainty in Language",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-55",
+        "query": "Generate, Annotate, and Learn: NLP with Synthetic Text",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-56",
+        "query": "TrueTeacher: Generating Synthetic Data for Factual Consistency Evaluation using Large Language Models",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-57",
+        "query": "Uniting the Tribes: Using Text for Marketing Insight",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-58",
+        "query": "GLiClass: Generalist Lightweight Model for Sequence Classification Tasks",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-59",
+        "query": "Improving Text Analysis Using Sentence Conjunctions and Punctuation",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "seed-60",
+        "query": "Better Synthetic Data by Retrieving and Transforming Existing Datasets",
+        "year_from": null,
+        "year_to": null,
+        "journal": null,
+        "limit": 20,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-1",
+        "query": "text measurement",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-2",
+        "query": "construct validity",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 43,
+        "returned_count": 43,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-3",
+        "query": "content validity",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 2,
+        "returned_count": 2,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-4",
+        "query": "measurement error",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 128,
+        "returned_count": 60,
+        "truncated": true,
+        "status": "success"
+      },
+      {
+        "id": "topic-5",
+        "query": "text classification",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 6,
+        "returned_count": 6,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-6",
+        "query": "psychometric text",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-7",
+        "query": "synthetic data",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-8",
+        "query": "weak supervision",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-9",
+        "query": "active learning",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 18,
+        "returned_count": 18,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-10",
+        "query": "automated text analysis",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 7,
+        "returned_count": 7,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-11",
+        "query": "text-based measurement",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 1,
+        "returned_count": 1,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-12",
+        "query": "large language models",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 25,
+        "returned_count": 25,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-13",
+        "query": "human label variation",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 0,
+        "returned_count": 0,
+        "truncated": false,
+        "status": "success"
+      },
+      {
+        "id": "topic-14",
+        "query": "domain generalization",
+        "year_from": 1990,
+        "year_to": 2026,
+        "journal": null,
+        "limit": 60,
+        "hit_count": 2,
+        "returned_count": 2,
+        "truncated": false,
+        "status": "success"
+      }
+    ]
+  },
+  "followup_candidates": [
+    {
+      "title": "Epistemological Jangle and Jingle Fallacies in the Consumer–Brand Relationship Subfield: A Call to Action",
+      "status": "pending-review",
+      "reason_zh": "题名/元数据提示可能有测量、文本方法或理论边界关联；未完成本轮出版与内容核验，保留检索线索，不进入论文目录。"
+    },
+    {
+      "title": "Epistemological Jangle and Jingle Fallacies in the Consumer–Brand Relationship Subfield: A Call to Action",
+      "status": "pending-review",
+      "reason_zh": "题名/元数据提示可能有测量、文本方法或理论边界关联；未完成本轮出版与内容核验，保留检索线索，不进入论文目录。"
+    },
+    {
+      "title": "Frontiers: How Much Influencer Marketing Is Undisclosed? Evidence from Twitter",
+      "status": "pending-review",
+      "reason_zh": "题名/元数据提示可能有测量、文本方法或理论边界关联；未完成本轮出版与内容核验，保留检索线索，不进入论文目录。"
+    },
+    {
+      "title": "Unintended Emotional Effects of Online Health Communities: A Text Mining-Supported Empirical Study 1",
+      "status": "pending-review",
+      "reason_zh": "题名/元数据提示可能有测量、文本方法或理论边界关联；未完成本轮出版与内容核验，保留检索线索，不进入论文目录。"
+    },
+    {
+      "title": "The Emergence and Evolution of Consumer Language Research",
+      "status": "pending-review",
+      "reason_zh": "题名/元数据提示可能有测量、文本方法或理论边界关联；未完成本轮出版与内容核验，保留检索线索，不进入论文目录。"
+    },
+    {
+      "title": "Metaphor-Enabled Marketplace Sentiment Analysis",
+      "status": "pending-review",
+      "reason_zh": "题名/元数据提示可能有测量、文本方法或理论边界关联；未完成本轮出版与内容核验，保留检索线索，不进入论文目录。"
+    },
+    {
+      "title": "Frontiers: Determining the Validity of Large Language Models for Automated Perceptual Analysis",
+      "status": "pending-review",
+      "reason_zh": "题名/元数据提示可能有测量、文本方法或理论边界关联；未完成本轮出版与内容核验，保留检索线索，不进入论文目录。"
+    },
+    {
+      "title": "The News in Earnings Announcement Disclosures: Capturing Word Context Using LLM Methods",
+      "status": "pending-review",
+      "reason_zh": "题名/元数据提示可能有测量、文本方法或理论边界关联；未完成本轮出版与内容核验，保留检索线索，不进入论文目录。"
+    },
+    {
+      "title": "SUVA: A Probabilistic Framework for Auditing LLMs with an Application to Social Preferences",
+      "status": "pending-review",
+      "reason_zh": "题名/元数据提示可能有测量、文本方法或理论边界关联；未完成本轮出版与内容核验，保留检索线索，不进入论文目录。"
+    },
+    {
+      "title": "Robust Predictive Modeling Under Unseen Data Distribution Shifts: A Methodological Commentary",
+      "status": "pending-review",
+      "reason_zh": "题名/元数据提示可能有测量、文本方法或理论边界关联；未完成本轮出版与内容核验，保留检索线索，不进入论文目录。"
+    }
+  ],
+  "limitations_zh": [
+    "题名检索不限年份；主题检索为1990–2026，所有当前期刊；measurement error返回60/128。",
+    "180为唯一库记录而非唯一研究；库内有同文重复和年份/venue误配，正式目录按官方身份去重。",
+    "未收录线索只做题名与返回元数据初筛，不宣称逐篇阅读全文；潜在相关线索另存待审。",
+    "网络查询为种子和EDITH候选的定向发现/版本核验，不是venue-year全量筛查。"
+  ]
+}
