@@ -8,7 +8,7 @@
 
 Constructs → Text Variables → Measurement Validation
 
-**51 篇主目录 · 12 篇补充 · 0 条待核验 · 核验截止 2026-11-09**
+**51 篇主目录 · 13 篇补充 · 0 条待核验 · 基线检索日期 2026-11-09**
 
 </div>
 
@@ -22,18 +22,18 @@ Constructs → Text Variables → Measurement Validation
 
 **排除：** 仅展示通用预测性能、模型压缩或分类榜单且无法说明测量相关性的研究；普通AI采用效果、完整科研Agent系统和无方法贡献的应用。金融或ESG文本只是可用场景，不作为独立收录理由。
 
-精选文献目录，不声称系统综述或完整venue-year覆盖。仅发布元数据、原创短评与来源链接；阅读摘要、部分正文和全文分别记录，未独立复现实验。
+后续定向增补见主数据incremental_updates及逐篇核验日期，不代表全库重新核验。精选文献目录，不声称系统综述或完整venue-year覆盖。仅发布元数据、原创短评与来源链接；阅读摘要、部分正文和全文分别记录，未独立复现实验。
 
 ## At a Glance
 
 | 统计口径 | 数量 |
 | --- | ---: |
 | 主目录 | 51 |
-| 补充 | 12 |
+| 补充 | 13 |
 | 待核验（不计入收录） | 0 |
-| 去重收录总数 | 63 |
-| EDITH本轮返回的唯一库记录 | 180 |
-| EDITH命中后最终收录的研究 | 27 |
+| 去重收录总数 | 64 |
+| EDITH基线检索返回的唯一库记录 | 180 |
+| EDITH命中后累计收录的研究 | 27 |
 
 ## How to Use
 
@@ -52,7 +52,7 @@ Constructs → Text Variables → Measurement Validation
 | [构念定义与操作化](topics/construct-operationalization.md) | 16 | 0 |
 | [文本标注与人工判断](topics/annotation-and-judgment.md) | 6 | 2 |
 | [合成数据与小模型适配](topics/synthetic-data-and-adaptation.md) | 13 | 4 |
-| [测量验证与可比性](topics/validation-and-comparability.md) | 9 | 1 |
+| [测量验证与可比性](topics/validation-and-comparability.md) | 9 | 2 |
 | [测量误差与下游推断](topics/measurement-error-and-inference.md) | 5 | 1 |
 | [人机协作与使用条件](topics/human-ai-workflows.md) | 2 | 4 |
 

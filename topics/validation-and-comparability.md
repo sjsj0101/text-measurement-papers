@@ -218,12 +218,35 @@
 
 **主题：** 测量验证与可比性 · 构念定义与操作化
 
-## 补充（1 篇）
+## 补充（2 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
+| 2026 · MultiPsyche · Workshop | [The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP](https://aclanthology.org/2026.multipsyche-1.5/)<br>[解读与来源](../topics/validation-and-comparability.md#zaghouani-2026-label-translation-fallacy) | 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。 |
 | 2026 · Finance and Economics Discussion Series · 预印本 | [Validating Large Language Model Annotations](https://www.federalreserve.gov/econres/feds/files/2026020pap.pdf)<br>[解读与来源](../topics/validation-and-comparability.md#hansen-2026-validating-llm-annotations) | 提供一种探索性的无外部基准验证思路，可与独立人工基准及测量误差校正方法对照阅读。 |
 
+
+<a id="zaghouani-2026-label-translation-fallacy"></a>
+### The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP
+
+**2026 · MultiPsyche · Workshop** · 会议论文 · 补充
+
+**作者：** Wajdi Zaghouani
+
+**研究内容：** 提出分层检查构念、测量工具、标注情境及可支持结论的报告协议，用于避免把翻译后的心理健康标签直接当作跨语言有效测量。
+
+**为什么读：** 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。
+
+**适用条件与限制：** 属于整合既有测量工具的协议与案例说明，不是新模型的实验性能验证，也不保证检查表能替代专业测量与临床判断；本轮仅阅读官方摘要。
+
+**本轮证据：** 摘要；核验日期 2026-11-10。未独立复现实验。
+
+**来源：**
+
+- [publication](https://aclanthology.org/2026.multipsyche-1.5/)：ACL Anthology官方页确认作者、2026年11月MultiPsyche第1届Workshop、页44–54；明确Workshop，不提升为主会。（2026-11-10）
+- [content](https://aclanthology.org/2026.multipsyche-1.5/)：短评依据官方摘要，区分协议整合与实验验证；未通读PDF。（2026-11-10）
+
+**主题：** 测量验证与可比性 · 构念定义与操作化 · 文本标注与人工判断
 
 <a id="hansen-2026-validating-llm-annotations"></a>
 ### Validating Large Language Model Annotations

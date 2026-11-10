@@ -55,6 +55,7 @@
 | 2021 · EMNLP Findings · Findings | [Temporal Adaptation of BERT and Performance on Downstream Document Classification: Insights from Social Media](https://aclanthology.org/2021.findings-emnlp.206/)<br>[解读与来源](../topics/validation-and-comparability.md#rottger-2021-temporal-adaptation) | 为纵向文本测量提供直接提醒：识别语言变化与维持分类可比性不是同一问题，应使用时间划分的任务验证。 |
 | 2020 · ACL · 主会 | [Beyond Accuracy: Behavioral Testing of NLP Models with CheckList](https://aclanthology.org/2020.acl-main.442/)<br>[解读与来源](../topics/validation-and-comparability.md#ribeiro-2020-checklist) | 把文本测量验证从单一准确率扩展到预先定义的能力、应保持不变的改写与应改变判断的情形。 |
 | 2020 · EMNLP Findings · Findings | [Evaluating Models’ Local Decision Boundaries via Contrast Sets](https://aclanthology.org/2020.findings-emnlp.117/)<br>[解读与来源](../topics/validation-and-comparability.md#gardner-2020-contrast-sets) | 适合把构念边界转为成对测试：只有目标含义变化时，测量结果是否按预期改变。 |
+| 2026 · MultiPsyche · Workshop | [The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP](https://aclanthology.org/2026.multipsyche-1.5/)<br>[解读与来源](../topics/validation-and-comparability.md#zaghouani-2026-label-translation-fallacy) | 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。 |
 
 
 ## 测量误差与下游推断

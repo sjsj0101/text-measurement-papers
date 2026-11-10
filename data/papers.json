@@ -3446,6 +3446,59 @@
         "issue_year": 2019
       },
       "related_repos": []
+    },
+    {
+      "id": "zaghouani-2026-label-translation-fallacy",
+      "title": "The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP",
+      "authors": [
+        "Wajdi Zaghouani"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "MultiPsyche",
+      "primary_topic": "validation-and-comparability",
+      "topics": [
+        "validation-and-comparability",
+        "construct-operationalization",
+        "annotation-and-judgment"
+      ],
+      "summary_zh": "提出分层检查构念、测量工具、标注情境及可支持结论的报告协议，用于避免把翻译后的心理健康标签直接当作跨语言有效测量。",
+      "relevance_zh": "将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。",
+      "limitations_zh": "属于整合既有测量工具的协议与案例说明，不是新模型的实验性能验证，也不保证检查表能替代专业测量与临床判断；本轮仅阅读官方摘要。",
+      "doi": null,
+      "arxiv_id": null,
+      "official_url": "https://aclanthology.org/2026.multipsyche-1.5/",
+      "paper_url": "https://aclanthology.org/2026.multipsyche-1.5/",
+      "publication_type": "conference-paper",
+      "track": "workshop",
+      "publication_status": "published",
+      "collection": "supplement",
+      "discipline": [
+        "cs",
+        "social-science"
+      ],
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-10",
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2026.multipsyche-1.5/",
+          "purpose": "publication",
+          "checked_on": "2026-11-10",
+          "note_zh": "ACL Anthology官方页确认作者、2026年11月MultiPsyche第1届Workshop、页44–54；明确Workshop，不提升为主会。"
+        },
+        {
+          "url": "https://aclanthology.org/2026.multipsyche-1.5/",
+          "purpose": "content",
+          "checked_on": "2026-11-10",
+          "note_zh": "短评依据官方摘要，区分协议整合与实验验证；未通读PDF。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {},
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -3782,5 +3835,14 @@
     "edith_included_count": 27,
     "edith_new_included_count": 4,
     "truncated_queries": 1
-  }
+  },
+  "incremental_updates": [
+    {
+      "checked_on": "2026-11-10",
+      "added_ids": [
+        "zaghouani-2026-label-translation-fallacy"
+      ],
+      "scope_zh": "补充1篇正式Workshop方法论文；原2026-11-09基线检索统计与快照不变。"
+    }
+  ]
 }

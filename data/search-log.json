@@ -1328,5 +1328,31 @@
     "180为唯一库记录而非唯一研究；库内有同文重复和年份/venue误配，正式目录按官方身份去重。",
     "未收录线索只做题名与返回元数据初筛，不宣称逐篇阅读全文；潜在相关线索另存待审。",
     "网络查询为种子和EDITH候选的定向发现/版本核验，不是venue-year全量筛查。"
+  ],
+  "incremental_runs": [
+    {
+      "checked_on": "2026-11-10",
+      "source": "EDITH current corpus + ACL Anthology and publisher web search",
+      "queries": [
+        "text measurement",
+        "construct validity",
+        "large language models annotation",
+        "measurement error",
+        "label descriptions",
+        "ModernBERT"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 15,
+      "unique_returned_hits": 15,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "zaghouani-2026-label-translation-fallacy"
+      ],
+      "limitations_zh": "精确短语定向批次，不替代原74项查询的基线统计；相关库内命中除既有条目外仍需筛查。Workshop单列补充，不声称全覆盖。"
+    }
   ]
 }
