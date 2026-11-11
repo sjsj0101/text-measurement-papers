@@ -1353,6 +1353,28 @@
         "zaghouani-2026-label-translation-fallacy"
       ],
       "limitations_zh": "精确短语定向批次，不替代原74项查询的基线统计；相关库内命中除既有条目外仍需筛查。Workshop单列补充，不声称全覆盖。"
+    },
+    {
+      "checked_on": "2026-11-11",
+      "source": "EDITH current corpus + Springer official article",
+      "queries": [
+        "complex constructs",
+        "computational social",
+        "text classification",
+        "annotation"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 6,
+      "unique_returned_hits": 6,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 1,
+      "web_new_supplement_count": 0,
+      "added_ids": [
+        "herderich-2026-complex-constructs"
+      ],
+      "limitations_zh": "本批仅处理昨日complex constructs候选；库内同文和其他潜在方法线索保持逐条筛查状态，未穷尽覆盖。"
     }
   ]
 }

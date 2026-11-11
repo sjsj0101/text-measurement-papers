@@ -161,4 +161,5 @@
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
+| 2026 · Behavior Research Methods · 期刊 | [Measuring complex constructs in large-scale text with computational social mixed methods](https://link.springer.com/article/10.3758/s13428-026-03046-5)<br>[解读与来源](../topics/construct-operationalization.md#herderich-2026-complex-constructs) | 直接回答如何从研究构念和编码规则构造文本变量，并让变量误差进入后续分析，而不只优化分类分数。 |
 | 2023 · MIS Quarterly · 期刊 | [Extracting Actionable Insights from Text Data: A Stable Topic Model Approach](https://aisel.aisnet.org/misq/vol47/iss3/3/)<br>[解读与来源](../topics/validation-and-comparability.md#yang-2023-stable-lda) | 连接文本变量的重复性与后续实证结论，是评估主题测量稳定性的直接方法文献。 |

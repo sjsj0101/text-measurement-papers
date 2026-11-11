@@ -8,7 +8,7 @@
 
 Constructs → Text Variables → Measurement Validation
 
-**51 篇主目录 · 13 篇补充 · 0 条待核验 · 基线检索日期 2026-11-09**
+**52 篇主目录 · 13 篇补充 · 0 条待核验 · 基线检索日期 2026-11-09**
 
 </div>
 
@@ -28,10 +28,10 @@ Constructs → Text Variables → Measurement Validation
 
 | 统计口径 | 数量 |
 | --- | ---: |
-| 主目录 | 51 |
+| 主目录 | 52 |
 | 补充 | 13 |
 | 待核验（不计入收录） | 0 |
-| 去重收录总数 | 64 |
+| 去重收录总数 | 65 |
 | EDITH基线检索返回的唯一库记录 | 180 |
 | EDITH命中后累计收录的研究 | 27 |
 
@@ -49,7 +49,7 @@ Constructs → Text Variables → Measurement Validation
 
 | 研究主题 | 主目录 | 补充 |
 | --- | ---: | ---: |
-| [构念定义与操作化](topics/construct-operationalization.md) | 16 | 0 |
+| [构念定义与操作化](topics/construct-operationalization.md) | 17 | 0 |
 | [文本标注与人工判断](topics/annotation-and-judgment.md) | 6 | 2 |
 | [合成数据与小模型适配](topics/synthetic-data-and-adaptation.md) | 13 | 4 |
 | [测量验证与可比性](topics/validation-and-comparability.md) | 9 | 2 |
@@ -66,6 +66,7 @@ Constructs → Text Variables → Measurement Validation
 | --- | --- | --- |
 | 2026 · MIS Quarterly · 期刊 | [AI-Augmented Content Validation in Behavioral Research: Development and Evaluation of the RATER System](https://aisel.aisnet.org/misq/vol50/iss1/7/)<br>[解读与来源](topics/construct-operationalization.md#pillet-2026-rater) | 直接对应构念定义与语言表述之间的内容效度检验，可为文本测量的操作化设计提供参照。 |
 | 2026 · ACL · Industry | [Beyond Instruction Optimization: Multi-Agent Error-Driven Class Description Refinement for LLM-Based Classification](https://aclanthology.org/2026.acl-industry.137/)<br>[解读与来源](topics/construct-operationalization.md#dev-2026-class-description-refinement) | 直接连接概念定义、标签规则和分类误差，适合讨论编码手册如何转为模型可执行的测量规则。 |
+| 2026 · Behavior Research Methods · 期刊 | [Measuring complex constructs in large-scale text with computational social mixed methods](https://link.springer.com/article/10.3758/s13428-026-03046-5)<br>[解读与来源](topics/construct-operationalization.md#herderich-2026-complex-constructs) | 直接回答如何从研究构念和编码规则构造文本变量，并让变量误差进入后续分析，而不只优化分类分数。 |
 | 2025 · Management Science · 期刊 | [ChatGPT for Textual Analysis? How to Use Generative LLMs in Accounting Research](https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03253)<br>[解读与来源](topics/construct-operationalization.md#de-kok-2025-chatgpt-textual-analysis) | 将 LLM 的操作选择与测量目标和验证责任连接，是从模型能力走向实证变量的实用方法文献。 |
 | 2025 · Information Systems Research · 期刊 | [The ITEM Ontology: A Tool to Elucidate the Anatomy of Psychometric Indicators](https://doi.org/10.1287/isre.2023.0257)<br>[解读与来源](topics/construct-operationalization.md#larsen-2025-item-ontology) | 为构念定义与编码指南的语义拆解提供基础：先说明文本要支持什么判断，再评价分类器能否保留这些条件。 |
 | 2023 · MIS Quarterly · 期刊 | [Exploiting Expert Knowledge for Assigning Firms to Industries: A Novel Deep Learning Method](https://aisel.aisnet.org/misq/vol47/iss3/10/)<br>[解读与来源](topics/construct-operationalization.md#zhao-2023-expert-industry-assignment) | 示范如何把显式类别定义、分类体系和专家标签同时纳入文本变量构建。 |

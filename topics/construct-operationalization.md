@@ -6,12 +6,13 @@
 
 把理论构念转成可辨认的文本证据，明确包含条件、排除条件和观察单位。
 
-## 主目录（16 篇）
+## 主目录（17 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
 | 2026 · MIS Quarterly · 期刊 | [AI-Augmented Content Validation in Behavioral Research: Development and Evaluation of the RATER System](https://aisel.aisnet.org/misq/vol50/iss1/7/)<br>[解读与来源](../topics/construct-operationalization.md#pillet-2026-rater) | 直接对应构念定义与语言表述之间的内容效度检验，可为文本测量的操作化设计提供参照。 |
 | 2026 · ACL · Industry | [Beyond Instruction Optimization: Multi-Agent Error-Driven Class Description Refinement for LLM-Based Classification](https://aclanthology.org/2026.acl-industry.137/)<br>[解读与来源](../topics/construct-operationalization.md#dev-2026-class-description-refinement) | 直接连接概念定义、标签规则和分类误差，适合讨论编码手册如何转为模型可执行的测量规则。 |
+| 2026 · Behavior Research Methods · 期刊 | [Measuring complex constructs in large-scale text with computational social mixed methods](https://link.springer.com/article/10.3758/s13428-026-03046-5)<br>[解读与来源](../topics/construct-operationalization.md#herderich-2026-complex-constructs) | 直接回答如何从研究构念和编码规则构造文本变量，并让变量误差进入后续分析，而不只优化分类分数。 |
 | 2025 · Management Science · 期刊 | [ChatGPT for Textual Analysis? How to Use Generative LLMs in Accounting Research](https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03253)<br>[解读与来源](../topics/construct-operationalization.md#de-kok-2025-chatgpt-textual-analysis) | 将 LLM 的操作选择与测量目标和验证责任连接，是从模型能力走向实证变量的实用方法文献。 |
 | 2025 · Information Systems Research · 期刊 | [The ITEM Ontology: A Tool to Elucidate the Anatomy of Psychometric Indicators](https://doi.org/10.1287/isre.2023.0257)<br>[解读与来源](../topics/construct-operationalization.md#larsen-2025-item-ontology) | 为构念定义与编码指南的语义拆解提供基础：先说明文本要支持什么判断，再评价分类器能否保留这些条件。 |
 | 2023 · MIS Quarterly · 期刊 | [Exploiting Expert Knowledge for Assigning Firms to Industries: A Novel Deep Learning Method](https://aisel.aisnet.org/misq/vol47/iss3/10/)<br>[解读与来源](../topics/construct-operationalization.md#zhao-2023-expert-industry-assignment) | 示范如何把显式类别定义、分类体系和专家标签同时纳入文本变量构建。 |
@@ -70,6 +71,30 @@
 - [publication](https://aclanthology.org/2026.acl-industry.137/)：已访问官方页面，核对题名、作者、年份、发表身份与摘要。（2026-11-09）
 
 **主题：** 构念定义与操作化 · 文本标注与人工判断 · 合成数据与小模型适配
+
+<a id="herderich-2026-complex-constructs"></a>
+### Measuring complex constructs in large-scale text with computational social mixed methods
+
+**2026 · Behavior Research Methods · 期刊** · 综述 · 主目录
+
+**作者：** Alina Herderich; Jana Lasser; Mirta Galesic; Segun Aroyehun; David Garcia; Joshua Garland
+
+**研究内容：** 把构念效度与分类性能放进同一条文本测量流程，连接人工标注、分类器训练和统计分析；讨论迭代标注、可信样本训练及下游分类误差处理。
+
+**为什么读：** 直接回答如何从研究构念和编码规则构造文本变量，并让变量误差进入后续分析，而不只优化分类分数。
+
+**适用条件与限制：** 官方类型为Tutorials，以反仇恨言论案例说明方法流程，不代表对所有构念和语言的普遍效度证明。官方数据说明指出公开示例文本经过改写；未运行教程代码或复现结果。
+
+**本轮证据：** 部分正文；核验日期 2026-11-11。未独立复现实验。
+
+**来源：**
+
+- [publication](https://link.springer.com/article/10.3758/s13428-026-03046-5)：官方期刊页核验六位作者、2026-07-21在线、卷58文章243、DOI及Tutorials类型；目录归为方法综述，非新模型排行榜。（2026-11-11）
+- [content](https://link.springer.com/article/10.3758/s13428-026-03046-5)：阅读摘要、分类误差与统计分析段落、讨论及数据/代码声明；非全文逐段审阅。（2026-11-11）
+
+**年份与版本说明：** 首次在线：2026-07-21；卷期年：2026
+
+**主题：** 构念定义与操作化 · 文本标注与人工判断 · 测量验证与可比性 · 测量误差与下游推断
 
 <a id="de-kok-2025-chatgpt-textual-analysis"></a>
 ### ChatGPT for Textual Analysis? How to Use Generative LLMs in Accounting Research

@@ -3499,6 +3499,69 @@
       ],
       "publication_dates": {},
       "related_repos": []
+    },
+    {
+      "id": "herderich-2026-complex-constructs",
+      "title": "Measuring complex constructs in large-scale text with computational social mixed methods",
+      "authors": [
+        "Alina Herderich",
+        "Jana Lasser",
+        "Mirta Galesic",
+        "Segun Aroyehun",
+        "David Garcia",
+        "Joshua Garland"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "Behavior Research Methods",
+      "primary_topic": "construct-operationalization",
+      "topics": [
+        "construct-operationalization",
+        "annotation-and-judgment",
+        "validation-and-comparability",
+        "measurement-error-and-inference"
+      ],
+      "summary_zh": "把构念效度与分类性能放进同一条文本测量流程，连接人工标注、分类器训练和统计分析；讨论迭代标注、可信样本训练及下游分类误差处理。",
+      "relevance_zh": "直接回答如何从研究构念和编码规则构造文本变量，并让变量误差进入后续分析，而不只优化分类分数。",
+      "limitations_zh": "官方类型为Tutorials，以反仇恨言论案例说明方法流程，不代表对所有构念和语言的普遍效度证明。官方数据说明指出公开示例文本经过改写；未运行教程代码或复现结果。",
+      "doi": "10.3758/s13428-026-03046-5",
+      "arxiv_id": null,
+      "official_url": "https://link.springer.com/article/10.3758/s13428-026-03046-5",
+      "paper_url": "https://link.springer.com/article/10.3758/s13428-026-03046-5",
+      "publication_type": "review",
+      "track": "journal",
+      "publication_status": "published",
+      "collection": "main",
+      "discipline": [
+        "social-science",
+        "cs"
+      ],
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-11",
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.3758/s13428-026-03046-5",
+          "purpose": "publication",
+          "checked_on": "2026-11-11",
+          "note_zh": "官方期刊页核验六位作者、2026-07-21在线、卷58文章243、DOI及Tutorials类型；目录归为方法综述，非新模型排行榜。"
+        },
+        {
+          "url": "https://link.springer.com/article/10.3758/s13428-026-03046-5",
+          "purpose": "content",
+          "checked_on": "2026-11-11",
+          "note_zh": "阅读摘要、分类误差与统计分析段落、讨论及数据/代码声明；非全文逐段审阅。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "online_date": "2026-07-21",
+        "issue_year": 2026
+      },
+      "related_repos": [],
+      "code_url": "https://github.com/Hai-Lina/computational-social-mixed-methods-pipelines"
     }
   ],
   "reading_routes": [
@@ -3843,6 +3906,13 @@
         "zaghouani-2026-label-translation-fallacy"
       ],
       "scope_zh": "补充1篇正式Workshop方法论文；原2026-11-09基线检索统计与快照不变。"
+    },
+    {
+      "checked_on": "2026-11-11",
+      "added_ids": [
+        "herderich-2026-complex-constructs"
+      ],
+      "scope_zh": "正式期刊方法教程补入主目录；保持2026-11-09基线统计，不冒充新全量核验。"
     }
   ]
 }
