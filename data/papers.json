@@ -3562,6 +3562,63 @@
       },
       "related_repos": [],
       "code_url": "https://github.com/Hai-Lina/computational-social-mixed-methods-pipelines"
+    },
+    {
+      "id": "harvey-2026-annotation-measurement",
+      "title": "Data Annotation as Measurement",
+      "authors": [
+        "Emma Harvey",
+        "Allison Koenecke",
+        "René F. Kizilcec"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "arXiv",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "primary_topic": "annotation-and-judgment",
+      "topics": [
+        "annotation-and-judgment",
+        "construct-operationalization",
+        "validation-and-comparability"
+      ],
+      "discipline": [
+        "cs",
+        "social-science"
+      ],
+      "summary_zh": "把标注视为测量过程，区分标注者一致性与构念效度，并从任务设计、人员与规则、质量评价及裁决等环节分析标签问题的来源。",
+      "relevance_zh": "为研究者把构念和编码规则转成文本标签提供过程诊断框架，避免把一致率高直接当成测量正确。",
+      "limitations_zh": "基于文献梳理与小规模、非代表性访谈；其框架覆盖多模态标注，不是专为文本建立的通用统计保证。仅核验预印本，不声称正式录用；未阅读全文或复现实证分析。",
+      "doi": null,
+      "arxiv_id": "2608.07297",
+      "official_url": "https://arxiv.org/abs/2608.07297",
+      "paper_url": "https://arxiv.org/abs/2608.07297",
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-12",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.07297",
+          "purpose": "metadata",
+          "checked_on": "2026-11-12",
+          "note_zh": "arXiv核验三位作者、题名及2026-08-07首发；未取得正式会议或期刊录用证明，按预印本补充。"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.07297v1",
+          "purpose": "content",
+          "checked_on": "2026-11-12",
+          "note_zh": "读取标题作者、摘要、引言及访谈方法限制；作者姓名重音依正文署名，非全文审阅。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "arxiv_original_date": "2026-08-07"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -3913,6 +3970,13 @@
         "herderich-2026-complex-constructs"
       ],
       "scope_zh": "正式期刊方法教程补入主目录；保持2026-11-09基线统计，不冒充新全量核验。"
+    },
+    {
+      "checked_on": "2026-11-12",
+      "added_ids": [
+        "harvey-2026-annotation-measurement"
+      ],
+      "scope_zh": "新增标注测量框架预印本补充；人机互学命中为已收录研究，不重复计数。"
     }
   ]
 }

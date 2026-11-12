@@ -148,11 +148,12 @@
 
 **主题：** 文本标注与人工判断 · 测量验证与可比性
 
-## 补充（2 篇）
+## 补充（3 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
 | 2026 · GEM · Workshop | [Capturing Epistemic Uncertainty in LLM-Based Soft Labeling](https://aclanthology.org/2026.gem-main.21/)<br>[解读与来源](../topics/annotation-and-judgment.md#jiang-2026-soft-label-uncertainty) | 适合讨论有多个合理判断时如何保存标签不确定性，以及模型之间的差异能否近似人工标注分布。 |
+| 2026 · arXiv · 预印本 | [Data Annotation as Measurement](https://arxiv.org/abs/2608.07297)<br>[解读与来源](../topics/annotation-and-judgment.md#harvey-2026-annotation-measurement) | 为研究者把构念和编码规则转成文本标签提供过程诊断框架，避免把一致率高直接当成测量正确。 |
 | 2024 · NLP+CSS · Workshop | [Knowledge Distillation in Automated Annotation: Supervised Text Classification with LLM-Generated Training Labels](https://aclanthology.org/2024.nlpcss-1.9/)<br>[解读与来源](../topics/annotation-and-judgment.md#pangakis-2024-annotation-distillation) | 紧贴从自动标注到可规模化文本变量的流程，也能帮助区分教师标签质量和学生分类器表现。 |
 
 
@@ -176,6 +177,30 @@
 - [publication](https://aclanthology.org/2026.gem-main.21/)：已核验 Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics；标识中的 gem-main 不表示 ACL 主会。（2026-11-09）
 
 **主题：** 文本标注与人工判断 · 测量验证与可比性
+
+<a id="harvey-2026-annotation-measurement"></a>
+### Data Annotation as Measurement
+
+**2026 · arXiv · 预印本** · 预印本／工作论文 · 补充
+
+**作者：** Emma Harvey; Allison Koenecke; René F. Kizilcec
+
+**研究内容：** 把标注视为测量过程，区分标注者一致性与构念效度，并从任务设计、人员与规则、质量评价及裁决等环节分析标签问题的来源。
+
+**为什么读：** 为研究者把构念和编码规则转成文本标签提供过程诊断框架，避免把一致率高直接当成测量正确。
+
+**适用条件与限制：** 基于文献梳理与小规模、非代表性访谈；其框架覆盖多模态标注，不是专为文本建立的通用统计保证。仅核验预印本，不声称正式录用；未阅读全文或复现实证分析。
+
+**本轮证据：** 部分正文；核验日期 2026-11-12。未独立复现实验。
+
+**来源：**
+
+- [metadata](https://arxiv.org/abs/2608.07297)：arXiv核验三位作者、题名及2026-08-07首发；未取得正式会议或期刊录用证明，按预印本补充。（2026-11-12）
+- [content](https://arxiv.org/html/2608.07297v1)：读取标题作者、摘要、引言及访谈方法限制；作者姓名重音依正文署名，非全文审阅。（2026-11-12）
+
+**年份与版本说明：** arxiv_original_date：2026-08-07
+
+**主题：** 文本标注与人工判断 · 构念定义与操作化 · 测量验证与可比性
 
 <a id="pangakis-2024-annotation-distillation"></a>
 ### Knowledge Distillation in Automated Annotation: Supervised Text Classification with LLM-Generated Training Labels

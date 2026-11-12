@@ -1375,6 +1375,27 @@
         "herderich-2026-complex-constructs"
       ],
       "limitations_zh": "本批仅处理昨日complex constructs候选；库内同文和其他潜在方法线索保持逐条筛查状态，未穷尽覆盖。"
+    },
+    {
+      "checked_on": "2026-11-12",
+      "source": "EDITH current corpus + INFORMS + arXiv original records",
+      "queries": [
+        "Reciprocal Human-Machine Learning",
+        "message classification",
+        "measurement invariance"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 2,
+      "unique_returned_hits": 1,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "harvey-2026-annotation-measurement"
+      ],
+      "limitations_zh": "人机互学命中按DOI匹配已有teeni-2023-reciprocal-learning，不重复新增；网上补接标注测量预印本，无正式录用断言，原基线统计不改。"
     }
   ]
 }

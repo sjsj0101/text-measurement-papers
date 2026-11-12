@@ -22,6 +22,7 @@
 | 2022 · TACL · 期刊 | [Investigating Reasons for Disagreement in Natural Language Inference](https://aclanthology.org/2022.tacl-1.78/)<br>[解读与来源](../topics/annotation-and-judgment.md#jiang-2022-nli-disagreement) | 提醒文本测量先诊断不一致来源，再决定修订规则、清洗错误或保留多种判断。 |
 | 2022 · EMNLP · 主会 | [The “Problem” of Human Label Variation: On Ground Truth in Data, Modeling and Evaluation](https://aclanthology.org/2022.emnlp-main.731/)<br>[解读与来源](../topics/annotation-and-judgment.md#plank-2022-human-label-variation) | 为主观文本测量为何保留分歧、如何选择标签聚合与评价目标提供概念框架。 |
 | 2026 · GEM · Workshop | [Capturing Epistemic Uncertainty in LLM-Based Soft Labeling](https://aclanthology.org/2026.gem-main.21/)<br>[解读与来源](../topics/annotation-and-judgment.md#jiang-2026-soft-label-uncertainty) | 适合讨论有多个合理判断时如何保存标签不确定性，以及模型之间的差异能否近似人工标注分布。 |
+| 2026 · arXiv · 预印本 | [Data Annotation as Measurement](https://arxiv.org/abs/2608.07297)<br>[解读与来源](../topics/annotation-and-judgment.md#harvey-2026-annotation-measurement) | 为研究者把构念和编码规则转成文本标签提供过程诊断框架，避免把一致率高直接当成测量正确。 |
 | 2024 · NLP+CSS · Workshop | [Knowledge Distillation in Automated Annotation: Supervised Text Classification with LLM-Generated Training Labels](https://aclanthology.org/2024.nlpcss-1.9/)<br>[解读与来源](../topics/annotation-and-judgment.md#pangakis-2024-annotation-distillation) | 紧贴从自动标注到可规模化文本变量的流程，也能帮助区分教师标签质量和学生分类器表现。 |
 
 
