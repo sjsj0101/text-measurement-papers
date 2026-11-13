@@ -218,13 +218,38 @@
 
 **主题：** 测量验证与可比性 · 构念定义与操作化
 
-## 补充（2 篇）
+## 补充（3 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
+| 2026 · arXiv · 预印本 | [Reproducibility is not construct validity: LLM measurement of institutionally situated communication](https://arxiv.org/abs/2609.19866)<br>[解读与来源](../topics/validation-and-comparability.md#batzdorfer-2026-reproducibility-construct-validity) | 直接提醒文本变量研究：重复运行得到相同分数，不能替代对目标构念及跨来源对应关系的验证；需先明确要测量态度还是公开表达。 |
 | 2026 · MultiPsyche · Workshop | [The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP](https://aclanthology.org/2026.multipsyche-1.5/)<br>[解读与来源](../topics/validation-and-comparability.md#zaghouani-2026-label-translation-fallacy) | 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。 |
 | 2026 · Finance and Economics Discussion Series · 预印本 | [Validating Large Language Model Annotations](https://www.federalreserve.gov/econres/feds/files/2026020pap.pdf)<br>[解读与来源](../topics/validation-and-comparability.md#hansen-2026-validating-llm-annotations) | 提供一种探索性的无外部基准验证思路，可与独立人工基准及测量误差校正方法对照阅读。 |
 
+
+<a id="batzdorfer-2026-reproducibility-construct-validity"></a>
+### Reproducibility is not construct validity: LLM measurement of institutionally situated communication
+
+**2026 · arXiv · 预印本** · 预印本／工作论文 · 补充
+
+**作者：** Veronika Batzdorfer; Carlo Romano Marcello Alessandro Santagiustina
+
+**研究内容：** 把欧盟AI Act咨询中同一利益相关者的公开文本与结构化问卷连接，区分LLM标注的重复一致性与构念对应。作者发现两者可不一致；这种分歧可能反映公共表达的制度角色与沟通情境，而不只是随机标注误差。
+
+**为什么读：** 直接提醒文本变量研究：重复运行得到相同分数，不能替代对目标构念及跨来源对应关系的验证；需先明确要测量态度还是公开表达。
+
+**适用条件与限制：** 仅核验预印本，未确认会议或期刊录用。只阅读摘要、引言与概念框架部分，未通读结果或复现；特定咨询场景不能推出普遍测量失效，问卷也不是不受情境影响的金标准，观察性差异不证明策略动机。
+
+**本轮证据：** 部分正文；核验日期 2026-11-13。未独立复现实验。
+
+**来源：**
+
+- [publication](https://arxiv.org/abs/2609.19866)：arXiv官方元数据确认题名、2026-09-17首发与v1；不作为正式录用证明。作者字段列两位作者，自动生成描述中的数量不一致，以PDF签名交叉核对。（2026-11-13）
+- [content](https://arxiv.org/pdf/2609.19866)：PDF首页确认两位作者；阅读摘要、引言及概念框架，区分重复一致性、构念效度与制度化表达，未通读或复现。（2026-11-13）
+
+**年份与版本说明：** first_preprint：2026-09-17
+
+**主题：** 测量验证与可比性 · 构念定义与操作化 · 文本标注与人工判断
 
 <a id="zaghouani-2026-label-translation-fallacy"></a>
 ### The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP

@@ -3619,6 +3619,62 @@
         "arxiv_original_date": "2026-08-07"
       },
       "related_repos": []
+    },
+    {
+      "id": "batzdorfer-2026-reproducibility-construct-validity",
+      "title": "Reproducibility is not construct validity: LLM measurement of institutionally situated communication",
+      "authors": [
+        "Veronika Batzdorfer",
+        "Carlo Romano Marcello Alessandro Santagiustina"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "arXiv",
+      "primary_topic": "validation-and-comparability",
+      "topics": [
+        "validation-and-comparability",
+        "construct-operationalization",
+        "annotation-and-judgment"
+      ],
+      "summary_zh": "把欧盟AI Act咨询中同一利益相关者的公开文本与结构化问卷连接，区分LLM标注的重复一致性与构念对应。作者发现两者可不一致；这种分歧可能反映公共表达的制度角色与沟通情境，而不只是随机标注误差。",
+      "relevance_zh": "直接提醒文本变量研究：重复运行得到相同分数，不能替代对目标构念及跨来源对应关系的验证；需先明确要测量态度还是公开表达。",
+      "limitations_zh": "仅核验预印本，未确认会议或期刊录用。只阅读摘要、引言与概念框架部分，未通读结果或复现；特定咨询场景不能推出普遍测量失效，问卷也不是不受情境影响的金标准，观察性差异不证明策略动机。",
+      "doi": null,
+      "arxiv_id": "2609.19866",
+      "official_url": "https://arxiv.org/abs/2609.19866",
+      "paper_url": "https://arxiv.org/pdf/2609.19866",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "discipline": [
+        "cs",
+        "social-science"
+      ],
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-13",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.19866",
+          "purpose": "publication",
+          "checked_on": "2026-11-13",
+          "note_zh": "arXiv官方元数据确认题名、2026-09-17首发与v1；不作为正式录用证明。作者字段列两位作者，自动生成描述中的数量不一致，以PDF签名交叉核对。"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2609.19866",
+          "purpose": "content",
+          "checked_on": "2026-11-13",
+          "note_zh": "PDF首页确认两位作者；阅读摘要、引言及概念框架，区分重复一致性、构念效度与制度化表达，未通读或复现。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "first_preprint": "2026-09-17"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -3977,6 +4033,13 @@
         "harvey-2026-annotation-measurement"
       ],
       "scope_zh": "新增标注测量框架预印本补充；人机互学命中为已收录研究，不重复计数。"
+    },
+    {
+      "checked_on": "2026-11-13",
+      "added_ids": [
+        "batzdorfer-2026-reproducibility-construct-validity"
+      ],
+      "scope_zh": "定向补入1篇构念验证预印本，仅作补充；保留2026-11-09基础快照和原统计，不推断正式录用。"
     }
   ]
 }

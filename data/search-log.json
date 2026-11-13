@@ -1396,6 +1396,27 @@
         "harvey-2026-annotation-measurement"
       ],
       "limitations_zh": "人机互学命中按DOI匹配已有teeni-2023-reciprocal-learning，不重复新增；网上补接标注测量预印本，无正式录用断言，原基线统计不改。"
+    },
+    {
+      "checked_on": "2026-11-13",
+      "source": "EDITH current corpus + arXiv original metadata and PDF",
+      "queries": [
+        "Reproducibility is not construct validity",
+        "construct validity",
+        "institutionally situated"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 3,
+      "unique_returned_hits": 3,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "batzdorfer-2026-reproducibility-construct-validity"
+      ],
+      "limitations_zh": "3条库记录仅为2个潜在研究线索；通用构念与量表评论仍需范围核验，不能写作零命中。新预印本仅补充，原基线与阅读路线保留。"
     }
   ]
 }
