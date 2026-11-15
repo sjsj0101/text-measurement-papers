@@ -1417,6 +1417,27 @@
         "batzdorfer-2026-reproducibility-construct-validity"
       ],
       "limitations_zh": "3条库记录仅为2个潜在研究线索；通用构念与量表评论仍需范围核验，不能写作零命中。新预印本仅补充，原基线与阅读路线保留。"
+    },
+    {
+      "checked_on": "2026-11-15",
+      "source": "EDITH current corpus + arXiv original metadata/HTML",
+      "queries": [
+        "construct validity",
+        "text measurement",
+        "measurement error"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 15,
+      "unique_returned_hits": 15,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "koomullil-2026-counting-disagreement"
+      ],
+      "limitations_zh": "库内已有文本误差研究按身份去重；其余通用测量与领域研究仍仅初筛，不声称全文排除。新预印本仅放补充，原基线和阅读路线不改。"
     }
   ]
 }

@@ -3675,6 +3675,61 @@
         "first_preprint": "2026-09-17"
       },
       "related_repos": []
+    },
+    {
+      "id": "koomullil-2026-counting-disagreement",
+      "title": "Counting Under Disagreement: Dollar-Weighted Measurement, Selective Machine Labelling and Budgeted Human Review from Disagreeing AI Readers of Administrative Text",
+      "authors": [
+        "George Koomullil"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "arXiv",
+      "primary_topic": "measurement-error-and-inference",
+      "topics": [
+        "measurement-error-and-inference",
+        "annotation-and-judgment",
+        "human-ai-workflows"
+      ],
+      "summary_zh": "研究同一文本标签复用于多条行政记录、目标为金额总量且读者有分歧时的测量问题，将设计加权校正、选择性机器标注与有限预算人工复核放在同一流程中，并区分理论条件、近似程序与经验评估。",
+      "relevance_zh": "直接连接文本标签误差、总体加权估计和人工验证样本的选择，说明标注准确率、金额误差与区间有效性不是同一评价目标。",
+      "limitations_zh": "仅核验预印本；短评只据摘要及引言，未通读证明、表格或复现。选择性标注的部署误差控制尚未建立，读者分歧会改变估计，机构级区间存在覆盖不足，不能把实验校正效果写成普适有效性保证。",
+      "doi": null,
+      "arxiv_id": "2611.13215",
+      "official_url": "https://arxiv.org/abs/2611.13215",
+      "paper_url": "https://arxiv.org/pdf/2611.13215",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "discipline": [
+        "cs",
+        "social-science"
+      ],
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-15",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.13215",
+          "purpose": "publication",
+          "checked_on": "2026-11-15",
+          "note_zh": "官方arXiv元数据确认2026-11-09首发及v1；HTML签名交叉确认单作者，不采用自动生成描述中不一致的人数。未确认正式录用。"
+        },
+        {
+          "url": "https://arxiv.org/html/2611.13215v1",
+          "purpose": "content",
+          "checked_on": "2026-11-15",
+          "note_zh": "阅读摘要与引言，明确部署误差控制未建立；未通读全文。作者关联Zenodo复现记录10.5281/zenodo.23285230，但本轮该跳转不可读，未验证内容或运行代码。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "first_preprint": "2026-11-09"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -4040,6 +4095,13 @@
         "batzdorfer-2026-reproducibility-construct-validity"
       ],
       "scope_zh": "定向补入1篇构念验证预印本，仅作补充；保留2026-11-09基础快照和原统计，不推断正式录用。"
+    },
+    {
+      "checked_on": "2026-11-15",
+      "added_ids": [
+        "koomullil-2026-counting-disagreement"
+      ],
+      "scope_zh": "定向补接候选，不刷新原全库基线或其他论文核验日；未复现实验。"
     }
   ]
 }

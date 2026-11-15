@@ -129,12 +129,37 @@
 
 **主题：** 测量误差与下游推断 · 测量验证与可比性
 
-## 补充（1 篇）
+## 补充（2 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
+| 2026 · arXiv · 预印本 | [Counting Under Disagreement: Dollar-Weighted Measurement, Selective Machine Labelling and Budgeted Human Review from Disagreeing AI Readers of Administrative Text](https://arxiv.org/abs/2611.13215)<br>[解读与来源](../topics/measurement-error-and-inference.md#koomullil-2026-counting-disagreement) | 直接连接文本标签误差、总体加权估计和人工验证样本的选择，说明标注准确率、金额误差与区间有效性不是同一评价目标。 |
 | 2018 · The Annals of Applied Statistics · 期刊 | [Statistical paradises and paradoxes in big data (I): Law of large populations, big data paradox, and the 2016 US presidential election](https://doi.org/10.1214/18-AOAS1161SF)<br>[解读与来源](../topics/measurement-error-and-inference.md#meng-2018-big-data-paradox) | 作为辅助统计背景，帮助区分增加可编码文本数量与改善目标总体覆盖；低标注成本本身不是代表性证据。 |
 
+
+<a id="koomullil-2026-counting-disagreement"></a>
+### Counting Under Disagreement: Dollar-Weighted Measurement, Selective Machine Labelling and Budgeted Human Review from Disagreeing AI Readers of Administrative Text
+
+**2026 · arXiv · 预印本** · 预印本／工作论文 · 补充
+
+**作者：** George Koomullil
+
+**研究内容：** 研究同一文本标签复用于多条行政记录、目标为金额总量且读者有分歧时的测量问题，将设计加权校正、选择性机器标注与有限预算人工复核放在同一流程中，并区分理论条件、近似程序与经验评估。
+
+**为什么读：** 直接连接文本标签误差、总体加权估计和人工验证样本的选择，说明标注准确率、金额误差与区间有效性不是同一评价目标。
+
+**适用条件与限制：** 仅核验预印本；短评只据摘要及引言，未通读证明、表格或复现。选择性标注的部署误差控制尚未建立，读者分歧会改变估计，机构级区间存在覆盖不足，不能把实验校正效果写成普适有效性保证。
+
+**本轮证据：** 部分正文；核验日期 2026-11-15。未独立复现实验。
+
+**来源：**
+
+- [publication](https://arxiv.org/abs/2611.13215)：官方arXiv元数据确认2026-11-09首发及v1；HTML签名交叉确认单作者，不采用自动生成描述中不一致的人数。未确认正式录用。（2026-11-15）
+- [content](https://arxiv.org/html/2611.13215v1)：阅读摘要与引言，明确部署误差控制未建立；未通读全文。作者关联Zenodo复现记录10.5281/zenodo.23285230，但本轮该跳转不可读，未验证内容或运行代码。（2026-11-15）
+
+**年份与版本说明：** first_preprint：2026-11-09
+
+**主题：** 测量误差与下游推断 · 文本标注与人工判断 · 人机协作与使用条件
 
 <a id="meng-2018-big-data-paradox"></a>
 ### Statistical paradises and paradoxes in big data (I): Law of large populations, big data paradox, and the 2016 US presidential election

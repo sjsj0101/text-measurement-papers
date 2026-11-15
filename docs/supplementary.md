@@ -9,6 +9,7 @@
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
 | 2026 · GEM · Workshop | [Capturing Epistemic Uncertainty in LLM-Based Soft Labeling](https://aclanthology.org/2026.gem-main.21/)<br>[解读与来源](../topics/annotation-and-judgment.md#jiang-2026-soft-label-uncertainty) | 适合讨论有多个合理判断时如何保存标签不确定性，以及模型之间的差异能否近似人工标注分布。 |
+| 2026 · arXiv · 预印本 | [Counting Under Disagreement: Dollar-Weighted Measurement, Selective Machine Labelling and Budgeted Human Review from Disagreeing AI Readers of Administrative Text](https://arxiv.org/abs/2611.13215)<br>[解读与来源](../topics/measurement-error-and-inference.md#koomullil-2026-counting-disagreement) | 直接连接文本标签误差、总体加权估计和人工验证样本的选择，说明标注准确率、金额误差与区间有效性不是同一评价目标。 |
 | 2026 · arXiv · 预印本 | [Data Annotation as Measurement](https://arxiv.org/abs/2608.07297)<br>[解读与来源](../topics/annotation-and-judgment.md#harvey-2026-annotation-measurement) | 为研究者把构念和编码规则转成文本标签提供过程诊断框架，避免把一致率高直接当成测量正确。 |
 | 2026 · arXiv · 预印本 | [Reproducibility is not construct validity: LLM measurement of institutionally situated communication](https://arxiv.org/abs/2609.19866)<br>[解读与来源](../topics/validation-and-comparability.md#batzdorfer-2026-reproducibility-construct-validity) | 直接提醒文本变量研究：重复运行得到相同分数，不能替代对目标构念及跨来源对应关系的验证；需先明确要测量态度还是公开表达。 |
 | 2026 · MultiPsyche · Workshop | [The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP](https://aclanthology.org/2026.multipsyche-1.5/)<br>[解读与来源](../topics/validation-and-comparability.md#zaghouani-2026-label-translation-fallacy) | 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。 |
