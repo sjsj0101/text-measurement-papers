@@ -218,12 +218,13 @@
 
 **主题：** 测量验证与可比性 · 构念定义与操作化
 
-## 补充（3 篇）
+## 补充（4 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
 | 2026 · arXiv · 预印本 | [Reproducibility is not construct validity: LLM measurement of institutionally situated communication](https://arxiv.org/abs/2609.19866)<br>[解读与来源](../topics/validation-and-comparability.md#batzdorfer-2026-reproducibility-construct-validity) | 直接提醒文本变量研究：重复运行得到相同分数，不能替代对目标构念及跨来源对应关系的验证；需先明确要测量态度还是公开表达。 |
 | 2026 · MultiPsyche · Workshop | [The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP](https://aclanthology.org/2026.multipsyche-1.5/)<br>[解读与来源](../topics/validation-and-comparability.md#zaghouani-2026-label-translation-fallacy) | 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。 |
+| 2026 · arXiv · 预印本 | [The Measurement Revolution? Credible Measurement and Inference in the Age of AI](https://arxiv.org/abs/2608.23524)<br>[解读与来源](../topics/validation-and-comparability.md#dell-2026-measurement-revolution) | 直接连接文本等非结构化材料的变量构造、构念判断、验证设计与下游推断，可作为阅读具体标注和误差校正方法之前的研究地图。 |
 | 2026 · Finance and Economics Discussion Series · 预印本 | [Validating Large Language Model Annotations](https://www.federalreserve.gov/econres/feds/files/2026020pap.pdf)<br>[解读与来源](../topics/validation-and-comparability.md#hansen-2026-validating-llm-annotations) | 提供一种探索性的无外部基准验证思路，可与独立人工基准及测量误差校正方法对照阅读。 |
 
 
@@ -272,6 +273,30 @@
 - [content](https://aclanthology.org/2026.multipsyche-1.5/)：短评依据官方摘要，区分协议整合与实验验证；未通读PDF。（2026-11-10）
 
 **主题：** 测量验证与可比性 · 构念定义与操作化 · 文本标注与人工判断
+
+<a id="dell-2026-measurement-revolution"></a>
+### The Measurement Revolution? Credible Measurement and Inference in the Age of AI
+
+**2026 · arXiv · 预印本** · 预印本／工作论文 · 补充
+
+**作者：** Melissa Dell; Ashesh Rambachan
+
+**研究内容：** 方法综述把AI参与测量分为发现、构念界定与观测三个阶段，强调先用明确标准定义目标变量，再设计验证样本，使有偏的机器预测也能服务可信的总体推断，并讨论缺少随机验证样本时的边界。
+
+**为什么读：** 直接连接文本等非结构化材料的变量构造、构念判断、验证设计与下游推断，可作为阅读具体标注和误差校正方法之前的研究地图。
+
+**适用条件与限制：** 这是综述性工作论文，不是新模型性能或通用有效性保证；仅核验元数据和摘要，未通读正文或审计理论条件。未核验期刊正式录用；不把作者的forthcoming声明当作出版社证据。验证样本设计及缺少随机样本时的限制不能被AI预测精度替代。
+
+**本轮证据：** 摘要；核验日期 2026-11-16。未独立复现实验。
+
+**来源：**
+
+- [publication](https://arxiv.org/abs/2608.23524)：官方arXiv确认题名、两位作者、2026-08-24首发及v1；定位为综述预印本，不推断期刊录用。（2026-11-16）
+- [metadata](https://www.nber.org/papers/w35744)：可读的NBER官方页面索引交叉确认同题同作者、Working Paper35744、2026年9月及DOI10.3386/w35744；直接页面403，未声称直接读过NBER正文。与arXiv按同一研究保留，不重复计数。（2026-11-16）
+
+**年份与版本说明：** first_preprint：2026-08-24；nber_issue_month：2026-09
+
+**主题：** 测量验证与可比性 · 构念定义与操作化 · 测量误差与下游推断
 
 <a id="hansen-2026-validating-llm-annotations"></a>
 ### Validating Large Language Model Annotations

@@ -1438,6 +1438,27 @@
         "koomullil-2026-counting-disagreement"
       ],
       "limitations_zh": "库内已有文本误差研究按身份去重；其余通用测量与领域研究仍仅初筛，不声称全文排除。新预印本仅放补充，原基线和阅读路线不改。"
+    },
+    {
+      "checked_on": "2026-11-16",
+      "source": "EDITH current corpus + arXiv and official NBER readable index",
+      "queries": [
+        "The Measurement Revolution",
+        "credible measurement",
+        "validation samples"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 0,
+      "unique_returned_hits": 0,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "dell-2026-measurement-revolution"
+      ],
+      "limitations_zh": "成功零命中，不是未检索；网络补接既有候选。NBER直接页面403，官方可读索引与arXiv交叉核验；未确认期刊录用或阅读全文，不代表完整覆盖。"
     }
   ]
 }

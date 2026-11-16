@@ -3730,6 +3730,63 @@
         "first_preprint": "2026-11-09"
       },
       "related_repos": []
+    },
+    {
+      "id": "dell-2026-measurement-revolution",
+      "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI",
+      "authors": [
+        "Melissa Dell",
+        "Ashesh Rambachan"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "arXiv",
+      "primary_topic": "validation-and-comparability",
+      "topics": [
+        "validation-and-comparability",
+        "construct-operationalization",
+        "measurement-error-and-inference"
+      ],
+      "summary_zh": "方法综述把AI参与测量分为发现、构念界定与观测三个阶段，强调先用明确标准定义目标变量，再设计验证样本，使有偏的机器预测也能服务可信的总体推断，并讨论缺少随机验证样本时的边界。",
+      "relevance_zh": "直接连接文本等非结构化材料的变量构造、构念判断、验证设计与下游推断，可作为阅读具体标注和误差校正方法之前的研究地图。",
+      "limitations_zh": "这是综述性工作论文，不是新模型性能或通用有效性保证；仅核验元数据和摘要，未通读正文或审计理论条件。未核验期刊正式录用；不把作者的forthcoming声明当作出版社证据。验证样本设计及缺少随机样本时的限制不能被AI预测精度替代。",
+      "doi": "10.3386/w35744",
+      "arxiv_id": "2608.23524",
+      "official_url": "https://arxiv.org/abs/2608.23524",
+      "paper_url": "https://arxiv.org/pdf/2608.23524",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "discipline": [
+        "social-science",
+        "cs"
+      ],
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-16",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.23524",
+          "purpose": "publication",
+          "checked_on": "2026-11-16",
+          "note_zh": "官方arXiv确认题名、两位作者、2026-08-24首发及v1；定位为综述预印本，不推断期刊录用。"
+        },
+        {
+          "url": "https://www.nber.org/papers/w35744",
+          "purpose": "metadata",
+          "checked_on": "2026-11-16",
+          "note_zh": "可读的NBER官方页面索引交叉确认同题同作者、Working Paper35744、2026年9月及DOI10.3386/w35744；直接页面403，未声称直接读过NBER正文。与arXiv按同一研究保留，不重复计数。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "first_preprint": "2026-08-24",
+        "nber_issue_month": "2026-09"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -4102,6 +4159,13 @@
         "koomullil-2026-counting-disagreement"
       ],
       "scope_zh": "定向补接候选，不刷新原全库基线或其他论文核验日；未复现实验。"
+    },
+    {
+      "checked_on": "2026-11-16",
+      "added_ids": [
+        "dell-2026-measurement-revolution"
+      ],
+      "scope_zh": "定向补入1篇测量方法综述工作论文，仅放补充；原2026-11-09基线、阅读路线与其他条目核验日不改。"
     }
   ]
 }
