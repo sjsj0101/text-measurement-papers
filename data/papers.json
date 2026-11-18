@@ -3787,6 +3787,61 @@
         "nber_issue_month": "2026-09"
       },
       "related_repos": []
+    },
+    {
+      "id": "pita-2026-correct-codes",
+      "title": "Correct codes for the wrong reasons? validating LLMs as measurement instruments for theoretical constructs",
+      "authors": [
+        "Manuel Pita"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "arXiv",
+      "primary_topic": "validation-and-comparability",
+      "topics": [
+        "validation-and-comparability",
+        "construct-operationalization",
+        "human-ai-workflows"
+      ],
+      "summary_zh": "提出grain calibration：将构念拆为条款级判断，以文本证据支持各判断，再用显式规则聚合。通过检查规则与理论要求的对应，诊断模型虽与人工一致却依赖替代线索的可能性。",
+      "relevance_zh": "直接讨论编码一致性与构念效度的区别，为定义、证据提取及人工修订如何进入文本测量流程提供概念方法。",
+      "limitations_zh": "这是程序性方法提案，不是已完成的端到端实验验证；作者将形式化与实证演示留待后续论文。规则可审计不等于构念已有效，仍依赖理论分解、证据与人工判断。本轮仅核验元数据和部分正文，未确认正式录用、代码或通用保证，未复现。",
+      "doi": null,
+      "arxiv_id": "2606.28574",
+      "official_url": "https://arxiv.org/abs/2606.28574",
+      "paper_url": "https://arxiv.org/pdf/2606.28574",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "discipline": [
+        "cs",
+        "social-science"
+      ],
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-18",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.28574",
+          "purpose": "publication",
+          "checked_on": "2026-11-18",
+          "note_zh": "官方arXiv确认单一作者、v1、2026-06-26首发；只证明预印本身份，未证明正式录用。"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.28574v1",
+          "purpose": "content",
+          "checked_on": "2026-11-18",
+          "note_zh": "读取摘要、引言及第3节grain calibration/人工参与部分；明确后续论文才形式化和演示。页面内部日期August24与首发日不同，归档采用arXiv提交历史，不猜日期含义。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "first_preprint": "2026-06-26"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -4166,6 +4221,13 @@
         "dell-2026-measurement-revolution"
       ],
       "scope_zh": "定向补入1篇测量方法综述工作论文，仅放补充；原2026-11-09基线、阅读路线与其他条目核验日不改。"
+    },
+    {
+      "checked_on": "2026-11-18",
+      "added_ids": [
+        "pita-2026-correct-codes"
+      ],
+      "scope_zh": "定向补入1篇构念效度方法提案，仅列预印本补充；原2026-11-09基线、阅读路线及其他条目核验日期保留。"
     }
   ]
 }

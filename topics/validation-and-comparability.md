@@ -218,15 +218,40 @@
 
 **主题：** 测量验证与可比性 · 构念定义与操作化
 
-## 补充（4 篇）
+## 补充（5 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
+| 2026 · arXiv · 预印本 | [Correct codes for the wrong reasons? validating LLMs as measurement instruments for theoretical constructs](https://arxiv.org/abs/2606.28574)<br>[解读与来源](../topics/validation-and-comparability.md#pita-2026-correct-codes) | 直接讨论编码一致性与构念效度的区别，为定义、证据提取及人工修订如何进入文本测量流程提供概念方法。 |
 | 2026 · arXiv · 预印本 | [Reproducibility is not construct validity: LLM measurement of institutionally situated communication](https://arxiv.org/abs/2609.19866)<br>[解读与来源](../topics/validation-and-comparability.md#batzdorfer-2026-reproducibility-construct-validity) | 直接提醒文本变量研究：重复运行得到相同分数，不能替代对目标构念及跨来源对应关系的验证；需先明确要测量态度还是公开表达。 |
 | 2026 · MultiPsyche · Workshop | [The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP](https://aclanthology.org/2026.multipsyche-1.5/)<br>[解读与来源](../topics/validation-and-comparability.md#zaghouani-2026-label-translation-fallacy) | 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。 |
 | 2026 · arXiv · 预印本 | [The Measurement Revolution? Credible Measurement and Inference in the Age of AI](https://arxiv.org/abs/2608.23524)<br>[解读与来源](../topics/validation-and-comparability.md#dell-2026-measurement-revolution) | 直接连接文本等非结构化材料的变量构造、构念判断、验证设计与下游推断，可作为阅读具体标注和误差校正方法之前的研究地图。 |
 | 2026 · Finance and Economics Discussion Series · 预印本 | [Validating Large Language Model Annotations](https://www.federalreserve.gov/econres/feds/files/2026020pap.pdf)<br>[解读与来源](../topics/validation-and-comparability.md#hansen-2026-validating-llm-annotations) | 提供一种探索性的无外部基准验证思路，可与独立人工基准及测量误差校正方法对照阅读。 |
 
+
+<a id="pita-2026-correct-codes"></a>
+### Correct codes for the wrong reasons? validating LLMs as measurement instruments for theoretical constructs
+
+**2026 · arXiv · 预印本** · 预印本／工作论文 · 补充
+
+**作者：** Manuel Pita
+
+**研究内容：** 提出grain calibration：将构念拆为条款级判断，以文本证据支持各判断，再用显式规则聚合。通过检查规则与理论要求的对应，诊断模型虽与人工一致却依赖替代线索的可能性。
+
+**为什么读：** 直接讨论编码一致性与构念效度的区别，为定义、证据提取及人工修订如何进入文本测量流程提供概念方法。
+
+**适用条件与限制：** 这是程序性方法提案，不是已完成的端到端实验验证；作者将形式化与实证演示留待后续论文。规则可审计不等于构念已有效，仍依赖理论分解、证据与人工判断。本轮仅核验元数据和部分正文，未确认正式录用、代码或通用保证，未复现。
+
+**本轮证据：** 部分正文；核验日期 2026-11-18。未独立复现实验。
+
+**来源：**
+
+- [publication](https://arxiv.org/abs/2606.28574)：官方arXiv确认单一作者、v1、2026-06-26首发；只证明预印本身份，未证明正式录用。（2026-11-18）
+- [content](https://arxiv.org/html/2606.28574v1)：读取摘要、引言及第3节grain calibration/人工参与部分；明确后续论文才形式化和演示。页面内部日期August24与首发日不同，归档采用arXiv提交历史，不猜日期含义。（2026-11-18）
+
+**年份与版本说明：** first_preprint：2026-06-26
+
+**主题：** 测量验证与可比性 · 构念定义与操作化 · 人机协作与使用条件
 
 <a id="batzdorfer-2026-reproducibility-construct-validity"></a>
 ### Reproducibility is not construct validity: LLM measurement of institutionally situated communication

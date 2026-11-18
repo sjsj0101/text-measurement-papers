@@ -1459,6 +1459,27 @@
         "dell-2026-measurement-revolution"
       ],
       "limitations_zh": "成功零命中，不是未检索；网络补接既有候选。NBER直接页面403，官方可读索引与arXiv交叉核验；未确认期刊录用或阅读全文，不代表完整覆盖。"
+    },
+    {
+      "checked_on": "2026-11-18",
+      "source": "EDITH current corpus + arXiv official metadata and selected HTML content",
+      "queries": [
+        "Correct codes for the wrong reasons",
+        "construct measurement",
+        "LLM validation"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 1,
+      "unique_returned_hits": 1,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "pita-2026-correct-codes"
+      ],
+      "limitations_zh": "库内构念更新MISQ论文身份经官方核验，文本测量相关性待进一步判断；本轮仅新增网络预印本方法提案，不将可审计程序当作已验证效度。原基线和未完成缺口保留。"
     }
   ]
 }
