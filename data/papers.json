@@ -3842,6 +3842,62 @@
         "first_preprint": "2026-06-26"
       },
       "related_repos": []
+    },
+    {
+      "id": "boustanifar-2026-same-text-different-numbers",
+      "title": "Same Text, Different Numbers: The Divergence of LLM-Based Measures",
+      "authors": [
+        "Hamid Boustanifar",
+        "Sasan Mansouri"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "arXiv",
+      "primary_topic": "validation-and-comparability",
+      "topics": [
+        "validation-and-comparability",
+        "measurement-error-and-inference",
+        "construct-operationalization"
+      ],
+      "summary_zh": "让不同提供方的LLM对同一批公司电话会文本构建多种变量，比较模型间一致性与下游推断。作者报告模型选择会改变测量和回归结论，跨提供方平均可改善部分排序稳定性，但分数水平仍受组合影响。",
+      "relevance_zh": "直接检验模型选择是否改变同一构念的文本变量及下游推断，适合设计跨模型稳健性和测量可比性检查，而非仅把金融文本作为应用。",
+      "limitations_zh": "本轮仅核验官方元数据与摘要，未审计识别、模型版本、提示、统计检验或复现。特定公司电话会场景不能推出所有LLM测量失效，跨模型平均也不是效度保证；未确认期刊或会议录用及公开代码。",
+      "doi": null,
+      "arxiv_id": "2609.31013",
+      "official_url": "https://arxiv.org/abs/2609.31013",
+      "paper_url": "https://arxiv.org/pdf/2609.31013",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "discipline": [
+        "social-science",
+        "cs"
+      ],
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-19",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.31013",
+          "purpose": "publication",
+          "checked_on": "2026-11-19",
+          "note_zh": "官方arXiv确认题名、两位作者、2026-09-25首发及v1；预印本身份不表示正式录用。"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.31013",
+          "purpose": "content",
+          "checked_on": "2026-11-19",
+          "note_zh": "依据官方摘要原创短评，保留作者报告的归属与场景限制；未读86页正文或独立复现。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "first_preprint": "2026-09-25"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -4228,6 +4284,13 @@
         "pita-2026-correct-codes"
       ],
       "scope_zh": "定向补入1篇构念效度方法提案，仅列预印本补充；原2026-11-09基线、阅读路线及其他条目核验日期保留。"
+    },
+    {
+      "checked_on": "2026-11-19",
+      "added_ids": [
+        "boustanifar-2026-same-text-different-numbers"
+      ],
+      "scope_zh": "定向补入1篇跨模型文本测量可比性预印本，仅列补充；原2026-11-09基线、阅读路线与其他条目核验日期保留。"
     }
   ]
 }

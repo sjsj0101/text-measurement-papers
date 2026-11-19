@@ -218,12 +218,13 @@
 
 **主题：** 测量验证与可比性 · 构念定义与操作化
 
-## 补充（5 篇）
+## 补充（6 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
 | 2026 · arXiv · 预印本 | [Correct codes for the wrong reasons? validating LLMs as measurement instruments for theoretical constructs](https://arxiv.org/abs/2606.28574)<br>[解读与来源](../topics/validation-and-comparability.md#pita-2026-correct-codes) | 直接讨论编码一致性与构念效度的区别，为定义、证据提取及人工修订如何进入文本测量流程提供概念方法。 |
 | 2026 · arXiv · 预印本 | [Reproducibility is not construct validity: LLM measurement of institutionally situated communication](https://arxiv.org/abs/2609.19866)<br>[解读与来源](../topics/validation-and-comparability.md#batzdorfer-2026-reproducibility-construct-validity) | 直接提醒文本变量研究：重复运行得到相同分数，不能替代对目标构念及跨来源对应关系的验证；需先明确要测量态度还是公开表达。 |
+| 2026 · arXiv · 预印本 | [Same Text, Different Numbers: The Divergence of LLM-Based Measures](https://arxiv.org/abs/2609.31013)<br>[解读与来源](../topics/validation-and-comparability.md#boustanifar-2026-same-text-different-numbers) | 直接检验模型选择是否改变同一构念的文本变量及下游推断，适合设计跨模型稳健性和测量可比性检查，而非仅把金融文本作为应用。 |
 | 2026 · MultiPsyche · Workshop | [The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP](https://aclanthology.org/2026.multipsyche-1.5/)<br>[解读与来源](../topics/validation-and-comparability.md#zaghouani-2026-label-translation-fallacy) | 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。 |
 | 2026 · arXiv · 预印本 | [The Measurement Revolution? Credible Measurement and Inference in the Age of AI](https://arxiv.org/abs/2608.23524)<br>[解读与来源](../topics/validation-and-comparability.md#dell-2026-measurement-revolution) | 直接连接文本等非结构化材料的变量构造、构念判断、验证设计与下游推断，可作为阅读具体标注和误差校正方法之前的研究地图。 |
 | 2026 · Finance and Economics Discussion Series · 预印本 | [Validating Large Language Model Annotations](https://www.federalreserve.gov/econres/feds/files/2026020pap.pdf)<br>[解读与来源](../topics/validation-and-comparability.md#hansen-2026-validating-llm-annotations) | 提供一种探索性的无外部基准验证思路，可与独立人工基准及测量误差校正方法对照阅读。 |
@@ -276,6 +277,30 @@
 **年份与版本说明：** first_preprint：2026-09-17
 
 **主题：** 测量验证与可比性 · 构念定义与操作化 · 文本标注与人工判断
+
+<a id="boustanifar-2026-same-text-different-numbers"></a>
+### Same Text, Different Numbers: The Divergence of LLM-Based Measures
+
+**2026 · arXiv · 预印本** · 预印本／工作论文 · 补充
+
+**作者：** Hamid Boustanifar; Sasan Mansouri
+
+**研究内容：** 让不同提供方的LLM对同一批公司电话会文本构建多种变量，比较模型间一致性与下游推断。作者报告模型选择会改变测量和回归结论，跨提供方平均可改善部分排序稳定性，但分数水平仍受组合影响。
+
+**为什么读：** 直接检验模型选择是否改变同一构念的文本变量及下游推断，适合设计跨模型稳健性和测量可比性检查，而非仅把金融文本作为应用。
+
+**适用条件与限制：** 本轮仅核验官方元数据与摘要，未审计识别、模型版本、提示、统计检验或复现。特定公司电话会场景不能推出所有LLM测量失效，跨模型平均也不是效度保证；未确认期刊或会议录用及公开代码。
+
+**本轮证据：** 摘要；核验日期 2026-11-19。未独立复现实验。
+
+**来源：**
+
+- [publication](https://arxiv.org/abs/2609.31013)：官方arXiv确认题名、两位作者、2026-09-25首发及v1；预印本身份不表示正式录用。（2026-11-19）
+- [content](https://arxiv.org/abs/2609.31013)：依据官方摘要原创短评，保留作者报告的归属与场景限制；未读86页正文或独立复现。（2026-11-19）
+
+**年份与版本说明：** first_preprint：2026-09-25
+
+**主题：** 测量验证与可比性 · 测量误差与下游推断 · 构念定义与操作化
 
 <a id="zaghouani-2026-label-translation-fallacy"></a>
 ### The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP

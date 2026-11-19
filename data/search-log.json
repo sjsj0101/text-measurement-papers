@@ -1480,6 +1480,27 @@
         "pita-2026-correct-codes"
       ],
       "limitations_zh": "库内构念更新MISQ论文身份经官方核验，文本测量相关性待进一步判断；本轮仅新增网络预印本方法提案，不将可审计程序当作已验证效度。原基线和未完成缺口保留。"
+    },
+    {
+      "checked_on": "2026-11-19",
+      "source": "EDITH current corpus + official arXiv metadata/abstract and topic discovery",
+      "queries": [
+        "When Constructs Become Obsolete",
+        "measurement invariance",
+        "text coding validity"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 1,
+      "unique_returned_hits": 1,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "boustanifar-2026-same-text-different-numbers"
+      ],
+      "limitations_zh": "构念更新MISQ线索仍需判断与文本变量构建的直接或必要基础关联；另发现身份替换分类器线索待审。只纳入跨模型测量预印本，未声称正式录用或全量覆盖。"
     }
   ]
 }
