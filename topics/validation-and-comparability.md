@@ -218,12 +218,13 @@
 
 **主题：** 测量验证与可比性 · 构念定义与操作化
 
-## 补充（6 篇）
+## 补充（7 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
 | 2026 · arXiv · 预印本 | [Correct codes for the wrong reasons? validating LLMs as measurement instruments for theoretical constructs](https://arxiv.org/abs/2606.28574)<br>[解读与来源](../topics/validation-and-comparability.md#pita-2026-correct-codes) | 直接讨论编码一致性与构念效度的区别，为定义、证据提取及人工修订如何进入文本测量流程提供概念方法。 |
 | 2026 · arXiv · 预印本 | [Reproducibility is not construct validity: LLM measurement of institutionally situated communication](https://arxiv.org/abs/2609.19866)<br>[解读与来源](../topics/validation-and-comparability.md#batzdorfer-2026-reproducibility-construct-validity) | 直接提醒文本变量研究：重复运行得到相同分数，不能替代对目标构念及跨来源对应关系的验证；需先明确要测量态度还是公开表达。 |
+| 2026 · arXiv · 预印本 | [Same Sentence, Different Construct: Identity-Swapped Rationales Reveal Measurement Non-Invariance in LLM Hate Speech Classifiers](https://arxiv.org/abs/2611.02491)<br>[解读与来源](../topics/validation-and-comparability.md#wang-2026-same-sentence-different-construct) | 把整体标签一致性与跨群体测量不变性分开，提供针对文本分类变量的身份控制审计思路，而非只看平均分类分数。 |
 | 2026 · arXiv · 预印本 | [Same Text, Different Numbers: The Divergence of LLM-Based Measures](https://arxiv.org/abs/2609.31013)<br>[解读与来源](../topics/validation-and-comparability.md#boustanifar-2026-same-text-different-numbers) | 直接检验模型选择是否改变同一构念的文本变量及下游推断，适合设计跨模型稳健性和测量可比性检查，而非仅把金融文本作为应用。 |
 | 2026 · MultiPsyche · Workshop | [The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP](https://aclanthology.org/2026.multipsyche-1.5/)<br>[解读与来源](../topics/validation-and-comparability.md#zaghouani-2026-label-translation-fallacy) | 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。 |
 | 2026 · arXiv · 预印本 | [The Measurement Revolution? Credible Measurement and Inference in the Age of AI](https://arxiv.org/abs/2608.23524)<br>[解读与来源](../topics/validation-and-comparability.md#dell-2026-measurement-revolution) | 直接连接文本等非结构化材料的变量构造、构念判断、验证设计与下游推断，可作为阅读具体标注和误差校正方法之前的研究地图。 |
@@ -275,6 +276,30 @@
 - [content](https://arxiv.org/pdf/2609.19866)：PDF首页确认两位作者；阅读摘要、引言及概念框架，区分重复一致性、构念效度与制度化表达，未通读或复现。（2026-11-13）
 
 **年份与版本说明：** first_preprint：2026-09-17
+
+**主题：** 测量验证与可比性 · 构念定义与操作化 · 文本标注与人工判断
+
+<a id="wang-2026-same-sentence-different-construct"></a>
+### Same Sentence, Different Construct: Identity-Swapped Rationales Reveal Measurement Non-Invariance in LLM Hate Speech Classifiers
+
+**2026 · arXiv · 预印本** · 预印本／工作论文 · 补充
+
+**作者：** Wenchang Wang; Yue Song
+
+**研究内容：** 在相同句式中替换群体身份，联合比较LLM的分类结果与所陈述理由。作者报告总体准确率较高时仍可出现身份相关的漏判，并据此讨论模型是否对不同群体使用同一构念标准。
+
+**为什么读：** 把整体标签一致性与跨群体测量不变性分开，提供针对文本分类变量的身份控制审计思路，而非只看平均分类分数。
+
+**适用条件与限制：** 本轮仅读官方摘要，未审计模板、理由编码或实验。模型陈述的理由不等于内部真实机制；模板测试不自动外推到自然语料或所有群体。未核验正式期刊/会议录用及公开代码，不能将作者观察提升为普遍因果解释。
+
+**本轮证据：** 摘要；核验日期 2026-11-20。未独立复现实验。
+
+**来源：**
+
+- [publication](https://arxiv.org/abs/2611.02491)：官方arXiv确认题名、两位作者、2026-11-02首发及v1；仅证明预印本，不推断正式录用。（2026-11-20）
+- [content](https://arxiv.org/abs/2611.02491)：摘要层级原创短评；身份控制、分类结果与理由的比较不等于已识别模型内部机制。未通读正文或复现。（2026-11-20）
+
+**年份与版本说明：** first_preprint：2026-11-02
 
 **主题：** 测量验证与可比性 · 构念定义与操作化 · 文本标注与人工判断
 

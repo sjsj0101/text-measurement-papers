@@ -3898,6 +3898,62 @@
         "first_preprint": "2026-09-25"
       },
       "related_repos": []
+    },
+    {
+      "id": "wang-2026-same-sentence-different-construct",
+      "title": "Same Sentence, Different Construct: Identity-Swapped Rationales Reveal Measurement Non-Invariance in LLM Hate Speech Classifiers",
+      "authors": [
+        "Wenchang Wang",
+        "Yue Song"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "arXiv",
+      "primary_topic": "validation-and-comparability",
+      "topics": [
+        "validation-and-comparability",
+        "construct-operationalization",
+        "annotation-and-judgment"
+      ],
+      "summary_zh": "在相同句式中替换群体身份，联合比较LLM的分类结果与所陈述理由。作者报告总体准确率较高时仍可出现身份相关的漏判，并据此讨论模型是否对不同群体使用同一构念标准。",
+      "relevance_zh": "把整体标签一致性与跨群体测量不变性分开，提供针对文本分类变量的身份控制审计思路，而非只看平均分类分数。",
+      "limitations_zh": "本轮仅读官方摘要，未审计模板、理由编码或实验。模型陈述的理由不等于内部真实机制；模板测试不自动外推到自然语料或所有群体。未核验正式期刊/会议录用及公开代码，不能将作者观察提升为普遍因果解释。",
+      "doi": null,
+      "arxiv_id": "2611.02491",
+      "official_url": "https://arxiv.org/abs/2611.02491",
+      "paper_url": "https://arxiv.org/pdf/2611.02491",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "discipline": [
+        "cs",
+        "social-science"
+      ],
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-20",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.02491",
+          "purpose": "publication",
+          "checked_on": "2026-11-20",
+          "note_zh": "官方arXiv确认题名、两位作者、2026-11-02首发及v1；仅证明预印本，不推断正式录用。"
+        },
+        {
+          "url": "https://arxiv.org/abs/2611.02491",
+          "purpose": "content",
+          "checked_on": "2026-11-20",
+          "note_zh": "摘要层级原创短评；身份控制、分类结果与理由的比较不等于已识别模型内部机制。未通读正文或复现。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "first_preprint": "2026-11-02"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -4291,6 +4347,13 @@
         "boustanifar-2026-same-text-different-numbers"
       ],
       "scope_zh": "定向补入1篇跨模型文本测量可比性预印本，仅列补充；原2026-11-09基线、阅读路线与其他条目核验日期保留。"
+    },
+    {
+      "checked_on": "2026-11-20",
+      "added_ids": [
+        "wang-2026-same-sentence-different-construct"
+      ],
+      "scope_zh": "定向补入1篇身份控制与测量不变性预印本，仅列补充；原2026-11-09基线、阅读路线及既有核验日期保留。"
     }
   ]
 }

@@ -1501,6 +1501,27 @@
         "boustanifar-2026-same-text-different-numbers"
       ],
       "limitations_zh": "构念更新MISQ线索仍需判断与文本变量构建的直接或必要基础关联；另发现身份替换分类器线索待审。只纳入跨模型测量预印本，未声称正式录用或全量覆盖。"
+    },
+    {
+      "checked_on": "2026-11-20",
+      "source": "EDITH current corpus + official arXiv metadata and abstract",
+      "queries": [
+        "Same Sentence Different Construct",
+        "measurement non invariance",
+        "LLM coding validity"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 0,
+      "unique_returned_hits": 0,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "wang-2026-same-sentence-different-construct"
+      ],
+      "limitations_zh": "零命中为本批精确短语结果，不表示文献不存在。摘要级预印本审计方法补充；主目录数量、基线与其他待核验线索保留。"
     }
   ]
 }
