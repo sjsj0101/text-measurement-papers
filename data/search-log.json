@@ -1522,6 +1522,27 @@
         "wang-2026-same-sentence-different-construct"
       ],
       "limitations_zh": "零命中为本批精确短语结果，不表示文献不存在。摘要级预印本审计方法补充；主目录数量、基线与其他待核验线索保留。"
+    },
+    {
+      "checked_on": "2026-11-22",
+      "source": "EDITH current corpus + official arXiv metadata/abstract",
+      "queries": [
+        "textual measurement",
+        "annotation uncertainty",
+        "construct validity"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 3,
+      "unique_returned_hits": 3,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "nakamura-2026-observational-equivalence"
+      ],
+      "limitations_zh": "三条库记录中两条为同一JCR研究，需按研究身份合并；构念/量表背景候选直接文本测量关联待审，尚未纳入。网络新增为摘要级预印本，不宣称全覆盖。"
     }
   ]
 }

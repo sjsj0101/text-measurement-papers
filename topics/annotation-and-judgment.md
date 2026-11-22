@@ -148,12 +148,13 @@
 
 **主题：** 文本标注与人工判断 · 测量验证与可比性
 
-## 补充（3 篇）
+## 补充（4 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
 | 2026 · GEM · Workshop | [Capturing Epistemic Uncertainty in LLM-Based Soft Labeling](https://aclanthology.org/2026.gem-main.21/)<br>[解读与来源](../topics/annotation-and-judgment.md#jiang-2026-soft-label-uncertainty) | 适合讨论有多个合理判断时如何保存标签不确定性，以及模型之间的差异能否近似人工标注分布。 |
 | 2026 · arXiv · 预印本 | [Data Annotation as Measurement](https://arxiv.org/abs/2608.07297)<br>[解读与来源](../topics/annotation-and-judgment.md#harvey-2026-annotation-measurement) | 为研究者把构念和编码规则转成文本标签提供过程诊断框架，避免把一致率高直接当成测量正确。 |
+| 2026 · arXiv · 预印本 | [Observational Equivalence of LLM and Human Annotation](https://arxiv.org/abs/2609.22133)<br>[解读与来源](../topics/annotation-and-judgment.md#nakamura-2026-observational-equivalence) | 把标注分歧与文本、规则本身的歧义联系起来，帮助区分标签一致性、人工参照的可靠性与下游推断，而不是默认人类标签永远正确。 |
 | 2024 · NLP+CSS · Workshop | [Knowledge Distillation in Automated Annotation: Supervised Text Classification with LLM-Generated Training Labels](https://aclanthology.org/2024.nlpcss-1.9/)<br>[解读与来源](../topics/annotation-and-judgment.md#pangakis-2024-annotation-distillation) | 紧贴从自动标注到可规模化文本变量的流程，也能帮助区分教师标签质量和学生分类器表现。 |
 
 
@@ -201,6 +202,30 @@
 **年份与版本说明：** arxiv_original_date：2026-08-07
 
 **主题：** 文本标注与人工判断 · 构念定义与操作化 · 测量验证与可比性
+
+<a id="nakamura-2026-observational-equivalence"></a>
+### Observational Equivalence of LLM and Human Annotation
+
+**2026 · arXiv · 预印本** · 预印本／工作论文 · 补充
+
+**作者：** Kentaro Nakamura; Jing Ling Tan; George Yean
+
+**研究内容：** 在既有政治学文本分类任务中让人类和LLM独立使用相同编码规则，比较一致性与争议文本，并考察澄清规则后的变化。作者提出利用跨模型分歧辅助复核与编码表修订，并构建考虑歧义的下游推断界限。
+
+**为什么读：** 把标注分歧与文本、规则本身的歧义联系起来，帮助区分标签一致性、人工参照的可靠性与下游推断，而不是默认人类标签永远正确。
+
+**适用条件与限制：** 本轮仅读官方摘要，未审计任务选择、编码者、界限推导或识别假设；作者的观测等价性结论限于受测任务与协议，不等于所有构念测量等价或LLM可无条件替代人类。未核验正式录用与代码，作为预印本补充。
+
+**本轮证据：** 摘要；核验日期 2026-11-22。未独立复现实验。
+
+**来源：**
+
+- [publication](https://arxiv.org/abs/2609.22133)：官方arXiv核验题名、三位作者、v1于2026-08-24提交及v2于2026-10-28修订；按实际历史日期记录，不用ID前缀推断日期或录用。（2026-11-22）
+- [content](https://arxiv.org/abs/2609.22133)：仅摘要，未阅读界限推导或复现实验；人机一致性不能直接当作普遍测量效度。（2026-11-22）
+
+**年份与版本说明：** first_preprint：2026-08-24；last_revision：2026-10-28
+
+**主题：** 文本标注与人工判断 · 测量验证与可比性 · 测量误差与下游推断 · 构念定义与操作化
 
 <a id="pangakis-2024-annotation-distillation"></a>
 ### Knowledge Distillation in Automated Annotation: Supervised Text Classification with LLM-Generated Training Labels

@@ -3954,6 +3954,65 @@
         "first_preprint": "2026-11-02"
       },
       "related_repos": []
+    },
+    {
+      "id": "nakamura-2026-observational-equivalence",
+      "title": "Observational Equivalence of LLM and Human Annotation",
+      "authors": [
+        "Kentaro Nakamura",
+        "Jing Ling Tan",
+        "George Yean"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "arXiv",
+      "primary_topic": "annotation-and-judgment",
+      "topics": [
+        "annotation-and-judgment",
+        "validation-and-comparability",
+        "measurement-error-and-inference",
+        "construct-operationalization"
+      ],
+      "summary_zh": "在既有政治学文本分类任务中让人类和LLM独立使用相同编码规则，比较一致性与争议文本，并考察澄清规则后的变化。作者提出利用跨模型分歧辅助复核与编码表修订，并构建考虑歧义的下游推断界限。",
+      "relevance_zh": "把标注分歧与文本、规则本身的歧义联系起来，帮助区分标签一致性、人工参照的可靠性与下游推断，而不是默认人类标签永远正确。",
+      "limitations_zh": "本轮仅读官方摘要，未审计任务选择、编码者、界限推导或识别假设；作者的观测等价性结论限于受测任务与协议，不等于所有构念测量等价或LLM可无条件替代人类。未核验正式录用与代码，作为预印本补充。",
+      "doi": null,
+      "arxiv_id": "2609.22133",
+      "official_url": "https://arxiv.org/abs/2609.22133",
+      "paper_url": "https://arxiv.org/pdf/2609.22133",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "discipline": [
+        "cs",
+        "social-science"
+      ],
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-22",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.22133",
+          "purpose": "publication",
+          "checked_on": "2026-11-22",
+          "note_zh": "官方arXiv核验题名、三位作者、v1于2026-08-24提交及v2于2026-10-28修订；按实际历史日期记录，不用ID前缀推断日期或录用。"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.22133",
+          "purpose": "content",
+          "checked_on": "2026-11-22",
+          "note_zh": "仅摘要，未阅读界限推导或复现实验；人机一致性不能直接当作普遍测量效度。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "first_preprint": "2026-08-24",
+        "last_revision": "2026-10-28"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -4354,6 +4413,13 @@
         "wang-2026-same-sentence-different-construct"
       ],
       "scope_zh": "定向补入1篇身份控制与测量不变性预印本，仅列补充；原2026-11-09基线、阅读路线及既有核验日期保留。"
+    },
+    {
+      "checked_on": "2026-11-22",
+      "added_ids": [
+        "nakamura-2026-observational-equivalence"
+      ],
+      "scope_zh": "定向补接人机标注比较预印本，补充单列，原2026-11-09基线和阅读路线不变。"
     }
   ]
 }
