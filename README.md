@@ -8,7 +8,7 @@
 
 Constructs → Text Variables → Measurement Validation
 
-**52 篇主目录 · 21 篇补充 · 0 条待核验 · 基线检索日期 2026-11-09**
+**53 篇主目录 · 21 篇补充 · 0 条待核验 · 基线检索日期 2026-11-09**
 
 </div>
 
@@ -28,12 +28,12 @@ Constructs → Text Variables → Measurement Validation
 
 | 统计口径 | 数量 |
 | --- | ---: |
-| 主目录 | 52 |
+| 主目录 | 53 |
 | 补充 | 21 |
 | 待核验（不计入收录） | 0 |
-| 去重收录总数 | 73 |
+| 去重收录总数 | 74 |
 | EDITH基线检索返回的唯一库记录 | 180 |
-| EDITH命中后累计收录的研究 | 27 |
+| EDITH命中后累计收录的研究 | 28 |
 
 ## How to Use
 
@@ -49,7 +49,7 @@ Constructs → Text Variables → Measurement Validation
 
 | 研究主题 | 主目录 | 补充 |
 | --- | ---: | ---: |
-| [构念定义与操作化](topics/construct-operationalization.md) | 17 | 0 |
+| [构念定义与操作化](topics/construct-operationalization.md) | 18 | 0 |
 | [文本标注与人工判断](topics/annotation-and-judgment.md) | 6 | 4 |
 | [合成数据与小模型适配](topics/synthetic-data-and-adaptation.md) | 13 | 4 |
 | [测量验证与可比性](topics/validation-and-comparability.md) | 9 | 7 |
@@ -69,6 +69,7 @@ Constructs → Text Variables → Measurement Validation
 | 2026 · Behavior Research Methods · 期刊 | [Measuring complex constructs in large-scale text with computational social mixed methods](https://link.springer.com/article/10.3758/s13428-026-03046-5)<br>[解读与来源](topics/construct-operationalization.md#herderich-2026-complex-constructs) | 直接回答如何从研究构念和编码规则构造文本变量，并让变量误差进入后续分析，而不只优化分类分数。 |
 | 2025 · Management Science · 期刊 | [ChatGPT for Textual Analysis? How to Use Generative LLMs in Accounting Research](https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03253)<br>[解读与来源](topics/construct-operationalization.md#de-kok-2025-chatgpt-textual-analysis) | 将 LLM 的操作选择与测量目标和验证责任连接，是从模型能力走向实证变量的实用方法文献。 |
 | 2025 · Information Systems Research · 期刊 | [The ITEM Ontology: A Tool to Elucidate the Anatomy of Psychometric Indicators](https://doi.org/10.1287/isre.2023.0257)<br>[解读与来源](topics/construct-operationalization.md#larsen-2025-item-ontology) | 为构念定义与编码指南的语义拆解提供基础：先说明文本要支持什么判断，再评价分类器能否保留这些条件。 |
+| 2023 · Journal of Consumer Research · 期刊 | [Epistemological Jangle and Jingle Fallacies in the Consumer–Brand Relationship Subfield: A Call to Action](https://academic.oup.com/jcr/article-abstract/51/2/383/7281359)<br>[解读与来源](topics/construct-operationalization.md#albert-2023-jangle-jingle) | 直接提供从题项文字检验构念重叠与含义分散的应用案例，帮助研究者在建文本变量前区分标签名称、操作定义与实际测量内容；并非只因其营销场景而收录。 |
 | 2023 · MIS Quarterly · 期刊 | [Exploiting Expert Knowledge for Assigning Firms to Industries: A Novel Deep Learning Method](https://aisel.aisnet.org/misq/vol47/iss3/10/)<br>[解读与来源](topics/construct-operationalization.md#zhao-2023-expert-industry-assignment) | 示范如何把显式类别定义、分类体系和专家标签同时纳入文本变量构建。 |
 | 2022 · Journal of Marketing Research · 期刊 | [Beyond Sentiment: The Value and Measurement of Consumer Certainty in Language](https://journals.sagepub.com/doi/abs/10.1177/00222437221134802)<br>[解读与来源](topics/construct-operationalization.md#rocklage-2022-certainty-lexicon) | 展示同一文本中需要区分态度方向与态度确定性等不同构念，并将工具开发与多种验证情境相结合。 |
 | 2022 · Information Systems Research · 期刊 | [Getting Personal: A Deep Learning Artifact for Text-Based Measurement of Personality](https://pubsonline.informs.org/doi/10.1287/isre.2022.1111)<br>[解读与来源](topics/construct-operationalization.md#yang-2022-deepperson) | 直接连接心理构念、文本测量和下游应用，同时展示伪标签与领域适配在测量模型中的作用。 |

@@ -6,7 +6,7 @@
 
 把理论构念转成可辨认的文本证据，明确包含条件、排除条件和观察单位。
 
-## 主目录（17 篇）
+## 主目录（18 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
@@ -15,6 +15,7 @@
 | 2026 · Behavior Research Methods · 期刊 | [Measuring complex constructs in large-scale text with computational social mixed methods](https://link.springer.com/article/10.3758/s13428-026-03046-5)<br>[解读与来源](../topics/construct-operationalization.md#herderich-2026-complex-constructs) | 直接回答如何从研究构念和编码规则构造文本变量，并让变量误差进入后续分析，而不只优化分类分数。 |
 | 2025 · Management Science · 期刊 | [ChatGPT for Textual Analysis? How to Use Generative LLMs in Accounting Research](https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03253)<br>[解读与来源](../topics/construct-operationalization.md#de-kok-2025-chatgpt-textual-analysis) | 将 LLM 的操作选择与测量目标和验证责任连接，是从模型能力走向实证变量的实用方法文献。 |
 | 2025 · Information Systems Research · 期刊 | [The ITEM Ontology: A Tool to Elucidate the Anatomy of Psychometric Indicators](https://doi.org/10.1287/isre.2023.0257)<br>[解读与来源](../topics/construct-operationalization.md#larsen-2025-item-ontology) | 为构念定义与编码指南的语义拆解提供基础：先说明文本要支持什么判断，再评价分类器能否保留这些条件。 |
+| 2023 · Journal of Consumer Research · 期刊 | [Epistemological Jangle and Jingle Fallacies in the Consumer–Brand Relationship Subfield: A Call to Action](https://academic.oup.com/jcr/article-abstract/51/2/383/7281359)<br>[解读与来源](../topics/construct-operationalization.md#albert-2023-jangle-jingle) | 直接提供从题项文字检验构念重叠与含义分散的应用案例，帮助研究者在建文本变量前区分标签名称、操作定义与实际测量内容；并非只因其营销场景而收录。 |
 | 2023 · MIS Quarterly · 期刊 | [Exploiting Expert Knowledge for Assigning Firms to Industries: A Novel Deep Learning Method](https://aisel.aisnet.org/misq/vol47/iss3/10/)<br>[解读与来源](../topics/construct-operationalization.md#zhao-2023-expert-industry-assignment) | 示范如何把显式类别定义、分类体系和专家标签同时纳入文本变量构建。 |
 | 2022 · Journal of Marketing Research · 期刊 | [Beyond Sentiment: The Value and Measurement of Consumer Certainty in Language](https://journals.sagepub.com/doi/abs/10.1177/00222437221134802)<br>[解读与来源](../topics/construct-operationalization.md#rocklage-2022-certainty-lexicon) | 展示同一文本中需要区分态度方向与态度确定性等不同构念，并将工具开发与多种验证情境相结合。 |
 | 2022 · Information Systems Research · 期刊 | [Getting Personal: A Deep Learning Artifact for Text-Based Measurement of Personality](https://pubsonline.informs.org/doi/10.1287/isre.2022.1111)<br>[解读与来源](../topics/construct-operationalization.md#yang-2022-deepperson) | 直接连接心理构念、文本测量和下游应用，同时展示伪标签与领域适配在测量模型中的作用。 |
@@ -140,6 +141,30 @@
 **年份与版本说明：** 首次在线：2025-08-13；卷期年：2026
 
 **主题：** 构念定义与操作化
+
+<a id="albert-2023-jangle-jingle"></a>
+### Epistemological Jangle and Jingle Fallacies in the Consumer–Brand Relationship Subfield: A Call to Action
+
+**2023 · Journal of Consumer Research · 期刊** · 期刊研究 · 主目录
+
+**作者：** Noel Albert; Matthew Thomson
+
+**研究内容：** 把消费者与品牌关系研究中的量表条目作为文本，结合文本和聚类分析检查不同构念是否使用相近表述，以及同名构念是否承载不同含义。作者据此讨论命名与测量内容错位带来的构念效度问题。
+
+**为什么读：** 直接提供从题项文字检验构念重叠与含义分散的应用案例，帮助研究者在建文本变量前区分标签名称、操作定义与实际测量内容；并非只因其营销场景而收录。
+
+**适用条件与限制：** 研究对象是特定消费者品牌关系子领域的量表文本，不是自然语料分类或LLM的通用验证算法。本轮仅阅读官方摘要及书目信息，未审计文本相似度、聚类参数、稳健性或全部量表；不能把表述相似直接当作构念等价，也不能由此证明文本变量的因果有效性。
+
+**本轮证据：** 摘要；核验日期 2026-11-23。未独立复现实验。
+
+**来源：**
+
+- [publication](https://academic.oup.com/jcr/article-abstract/51/2/383/7281359)：官方摘要页及其出版商minimal页面可读，核验两位作者、DOI、2023-09-23在线日期与51(2):383–407的2024卷期。完整文章页普通GET遇403，未绕过验证或读取付费全文。（2026-11-23）
+- [content](https://academic.oup.com/jcr/article-abstract/51/2/383/7281359)：官方完整摘要支持文本与聚类分析、构念重叠与一名多义的短评；不添加未读方法细节或量化效果。（2026-11-23）
+
+**年份与版本说明：** online_first：2023-09-23；卷期年：2024；volume：51；issue：2；pages：383–407
+
+**主题：** 构念定义与操作化 · 测量验证与可比性
 
 <a id="zhao-2023-expert-industry-assignment"></a>
 ### Exploiting Expert Knowledge for Assigning Firms to Industries: A Novel Deep Learning Method

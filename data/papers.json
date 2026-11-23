@@ -4013,6 +4013,65 @@
         "last_revision": "2026-10-28"
       },
       "related_repos": []
+    },
+    {
+      "id": "albert-2023-jangle-jingle",
+      "title": "Epistemological Jangle and Jingle Fallacies in the Consumer–Brand Relationship Subfield: A Call to Action",
+      "authors": [
+        "Noel Albert",
+        "Matthew Thomson"
+      ],
+      "authors_complete": true,
+      "year": 2023,
+      "venue": "Journal of Consumer Research",
+      "primary_topic": "construct-operationalization",
+      "topics": [
+        "construct-operationalization",
+        "validation-and-comparability"
+      ],
+      "summary_zh": "把消费者与品牌关系研究中的量表条目作为文本，结合文本和聚类分析检查不同构念是否使用相近表述，以及同名构念是否承载不同含义。作者据此讨论命名与测量内容错位带来的构念效度问题。",
+      "relevance_zh": "直接提供从题项文字检验构念重叠与含义分散的应用案例，帮助研究者在建文本变量前区分标签名称、操作定义与实际测量内容；并非只因其营销场景而收录。",
+      "limitations_zh": "研究对象是特定消费者品牌关系子领域的量表文本，不是自然语料分类或LLM的通用验证算法。本轮仅阅读官方摘要及书目信息，未审计文本相似度、聚类参数、稳健性或全部量表；不能把表述相似直接当作构念等价，也不能由此证明文本变量的因果有效性。",
+      "doi": "10.1093/jcr/ucad064",
+      "arxiv_id": null,
+      "official_url": "https://academic.oup.com/jcr/article-abstract/51/2/383/7281359",
+      "paper_url": "https://doi.org/10.1093/jcr/ucad064",
+      "publication_type": "journal-article",
+      "track": "journal",
+      "publication_status": "published",
+      "collection": "main",
+      "discipline": [
+        "marketing"
+      ],
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-23",
+      "sources": [
+        {
+          "url": "https://academic.oup.com/jcr/article-abstract/51/2/383/7281359",
+          "purpose": "publication",
+          "checked_on": "2026-11-23",
+          "note_zh": "官方摘要页及其出版商minimal页面可读，核验两位作者、DOI、2023-09-23在线日期与51(2):383–407的2024卷期。完整文章页普通GET遇403，未绕过验证或读取付费全文。"
+        },
+        {
+          "url": "https://academic.oup.com/jcr/article-abstract/51/2/383/7281359",
+          "purpose": "content",
+          "checked_on": "2026-11-23",
+          "note_zh": "官方完整摘要支持文本与聚类分析、构念重叠与一名多义的短评；不添加未读方法细节或量化效果。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "edith",
+        "web"
+      ],
+      "publication_dates": {
+        "online_first": "2023-09-23",
+        "issue_year": 2024,
+        "volume": "51",
+        "issue": "2",
+        "pages": "383–407"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -4346,7 +4405,7 @@
     "query_count": 74,
     "summed_query_hits": 263,
     "unique_returned_hits": 180,
-    "edith_included_count": 27,
+    "edith_included_count": 28,
     "edith_new_included_count": 4,
     "truncated_queries": 1
   },
@@ -4420,6 +4479,13 @@
         "nakamura-2026-observational-equivalence"
       ],
       "scope_zh": "定向补接人机标注比较预印本，补充单列，原2026-11-09基线和阅读路线不变。"
+    },
+    {
+      "checked_on": "2026-11-23",
+      "added_ids": [
+        "albert-2023-jangle-jingle"
+      ],
+      "scope_zh": "合并本轮两条库记录后补入1篇正式构念测量研究；按2023在线年归档、2024卷期另存。累计EDITH收录28；原基线74查询/180记录及阅读路线不变。"
     }
   ]
 }

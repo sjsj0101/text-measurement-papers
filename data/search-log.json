@@ -1543,6 +1543,27 @@
         "nakamura-2026-observational-equivalence"
       ],
       "limitations_zh": "三条库记录中两条为同一JCR研究，需按研究身份合并；构念/量表背景候选直接文本测量关联待审，尚未纳入。网络新增为摘要级预印本，不宣称全覆盖。"
+    },
+    {
+      "checked_on": "2026-11-23",
+      "source": "EDITH current corpus + official Oxford/JCR abstract page",
+      "queries": [
+        "Epistemological Jangle and Jingle Fallacies",
+        "annotation ambiguity",
+        "text variable construction"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 2,
+      "unique_returned_hits": 2,
+      "truncated_queries": 0,
+      "edith_new_included_count": 1,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 0,
+      "added_ids": [
+        "albert-2023-jangle-jingle"
+      ],
+      "limitations_zh": "2条库记录对应1篇研究，DOI/题名/作者合并；由库发现、网络核验，仅计1次新增。官方摘要支持收录，未审计正文方法或复现。原2026-11-09全库基线统计不改，定向增补不表示全覆盖。"
     }
   ]
 }
