@@ -8,7 +8,7 @@
 
 Constructs → Text Variables → Measurement Validation
 
-**53 篇主目录 · 21 篇补充 · 0 条待核验 · 基线检索日期 2026-11-09**
+**54 篇主目录 · 21 篇补充 · 0 条待核验 · 基线检索日期 2026-11-09**
 
 </div>
 
@@ -28,10 +28,10 @@ Constructs → Text Variables → Measurement Validation
 
 | 统计口径 | 数量 |
 | --- | ---: |
-| 主目录 | 53 |
+| 主目录 | 54 |
 | 补充 | 21 |
 | 待核验（不计入收录） | 0 |
-| 去重收录总数 | 74 |
+| 去重收录总数 | 75 |
 | EDITH基线检索返回的唯一库记录 | 180 |
 | EDITH命中后累计收录的研究 | 28 |
 
@@ -53,7 +53,7 @@ Constructs → Text Variables → Measurement Validation
 | [文本标注与人工判断](topics/annotation-and-judgment.md) | 6 | 4 |
 | [合成数据与小模型适配](topics/synthetic-data-and-adaptation.md) | 13 | 4 |
 | [测量验证与可比性](topics/validation-and-comparability.md) | 9 | 7 |
-| [测量误差与下游推断](topics/measurement-error-and-inference.md) | 5 | 2 |
+| [测量误差与下游推断](topics/measurement-error-and-inference.md) | 6 | 2 |
 | [人机协作与使用条件](topics/human-ai-workflows.md) | 2 | 4 |
 
 ## Paper Index
@@ -134,6 +134,7 @@ Constructs → Text Variables → Measurement Validation
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
+| 2026 · ICML · 主会 | [Efficient Inference for Noisy LLM-as-a-Judge Evaluation](https://proceedings.mlr.press/v306/chen26cq.html)<br>[解读与来源](topics/measurement-error-and-inference.md#chen-2026-noisy-judge-inference) | 直接服务于把文本分类标签聚合为总体比例或均值时的误差校正；连接有限人工标注、代理标签与下游统计量，不是只比较分类榜单或因为其他库已有收录。 |
 | 2025 · MIS Quarterly · 期刊 | [Correcting Measurement Error in Regression Models with Variables Constructed from Aggregated Output of Data Mining Models](https://aisel.aisnet.org/misq/vol49/iss1/6/)<br>[解读与来源](topics/measurement-error-and-inference.md#qiao-2025-aggregated-measurement-error) | 覆盖评论情感等个体预测聚合为产品或组织变量后的测量误差，补充逐条标签校正。 |
 | 2023 · Science · 期刊 | [Prediction-powered inference](https://doi.org/10.1126/science.adi6000)<br>[解读与来源](topics/measurement-error-and-inference.md#angelopoulos-2023-prediction-powered-inference) | 为文本变量的验证预算提供推断起点：独立标签既用于检查分类质量，也可用于校正估计。 |
 | 2023 · NeurIPS · 主会 | [Using Imperfect Surrogates for Downstream Inference: Design-based Supervised Learning for Social Science Applications of Large Language Models](https://papers.neurips.cc/paper_files/paper/2023/hash/d862f7f5445255090de13b825b880d59-Abstract-Conference.html)<br>[解读与来源](topics/measurement-error-and-inference.md#egami-2023-imperfect-surrogates) | 直接回答如何把 LLM 或其他分类器的代理标签用于统计推断，而不只评价标签预测准确率。 |

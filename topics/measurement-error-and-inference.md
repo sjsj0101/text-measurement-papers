@@ -6,16 +6,42 @@
 
 研究生成变量的误分类、聚合误差及其对估计和不确定性的影响。
 
-## 主目录（5 篇）
+## 主目录（6 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
+| 2026 · ICML · 主会 | [Efficient Inference for Noisy LLM-as-a-Judge Evaluation](https://proceedings.mlr.press/v306/chen26cq.html)<br>[解读与来源](../topics/measurement-error-and-inference.md#chen-2026-noisy-judge-inference) | 直接服务于把文本分类标签聚合为总体比例或均值时的误差校正；连接有限人工标注、代理标签与下游统计量，不是只比较分类榜单或因为其他库已有收录。 |
 | 2025 · MIS Quarterly · 期刊 | [Correcting Measurement Error in Regression Models with Variables Constructed from Aggregated Output of Data Mining Models](https://aisel.aisnet.org/misq/vol49/iss1/6/)<br>[解读与来源](../topics/measurement-error-and-inference.md#qiao-2025-aggregated-measurement-error) | 覆盖评论情感等个体预测聚合为产品或组织变量后的测量误差，补充逐条标签校正。 |
 | 2023 · Science · 期刊 | [Prediction-powered inference](https://doi.org/10.1126/science.adi6000)<br>[解读与来源](../topics/measurement-error-and-inference.md#angelopoulos-2023-prediction-powered-inference) | 为文本变量的验证预算提供推断起点：独立标签既用于检查分类质量，也可用于校正估计。 |
 | 2023 · NeurIPS · 主会 | [Using Imperfect Surrogates for Downstream Inference: Design-based Supervised Learning for Social Science Applications of Large Language Models](https://papers.neurips.cc/paper_files/paper/2023/hash/d862f7f5445255090de13b825b880d59-Abstract-Conference.html)<br>[解读与来源](../topics/measurement-error-and-inference.md#egami-2023-imperfect-surrogates) | 直接回答如何把 LLM 或其他分类器的代理标签用于统计推断，而不只评价标签预测准确率。 |
 | 2021 · Information Systems Research · 期刊 | [Correcting Misclassification Bias in Regression Models with Variables Generated via Data Mining](https://pubsonline.informs.org/doi/10.1287/isre.2020.0977)<br>[解读与来源](../topics/measurement-error-and-inference.md#qiao-2021-misclassification-bias) | 直接处理从文本分类标签到回归推断的误差传播，区分预测指标与目标参数精度。 |
 | 2018 · Information Systems Research · 期刊 | [Mind the Gap: Accounting for Measurement Error and Misclassification in Variables Generated via Data Mining](https://pubsonline.informs.org/doi/10.1287/isre.2017.0727)<br>[解读与来源](../topics/measurement-error-and-inference.md#yang-2018-mind-the-gap) | 为把文本预测分数当作观测变量的实证研究提供误差诊断和校正入口。 |
 
+
+<a id="chen-2026-noisy-judge-inference"></a>
+### Efficient Inference for Noisy LLM-as-a-Judge Evaluation
+
+**2026 · ICML · 主会** · 会议论文 · 主目录
+
+**作者：** Yiqun T. Chen; Sizhu Lu; Sijia Li; Moran Guo; Shengyi Li
+
+**研究内容：** 将LLM分类或评审标签看作带误差的测量代理，比较误分类校正与人工校准的预测辅助估计，并用有效影响函数分析总体均值估计的效率。作者代码将总体比例作为明确使用场景。
+
+**为什么读：** 直接服务于把文本分类标签聚合为总体比例或均值时的误差校正；连接有限人工标注、代理标签与下游统计量，不是只比较分类榜单或因为其他库已有收录。
+
+**适用条件与限制：** 原论文侧重LLM评测均值和胜率，代码另支持一般分类比例；这些统计校正不验证构念定义，也不消除人工标签本身的系统性偏差。仅读官方摘要及代码README，未审计证明、校准设计或有限样本覆盖率；理论方差优势依条件而定，代码确认未运行。
+
+**本轮证据：** 摘要；核验日期 2026-11-25。未独立复现实验。
+
+**来源：**
+
+- [publication](https://proceedings.mlr.press/v306/chen26cq.html)：官方PMLR306:15836–15860核验ICML2026主会、题名与五位作者；OpenReviewID来自PMLR，不以受限forum页面替代发表证明。（2026-11-25）
+- [content](https://proceedings.mlr.press/v306/chen26cq.html)：摘要支持均值/胜率、测量误差与预测辅助推断比较；仅读摘要，不补写未审计的假设和数值保证。（2026-11-25）
+- [content](https://github.com/yiqunchen/debias-llm-as-a-judge)：PMLR链接的作者代码README明确一般分类器总体比例校正；本轮打开核验、未安装或运行。（2026-11-25）
+
+**其他目录：** [good_llm_stats_papers](https://github.com/sjsj0101/good_llm_stats_papers/blob/main/data/papers.yaml)
+
+**主题：** 测量误差与下游推断 · 测量验证与可比性
 
 <a id="qiao-2025-aggregated-measurement-error"></a>
 ### Correcting Measurement Error in Regression Models with Variables Constructed from Aggregated Output of Data Mining Models

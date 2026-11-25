@@ -4072,6 +4072,77 @@
         "pages": "383–407"
       },
       "related_repos": []
+    },
+    {
+      "id": "chen-2026-noisy-judge-inference",
+      "title": "Efficient Inference for Noisy LLM-as-a-Judge Evaluation",
+      "authors": [
+        "Yiqun T. Chen",
+        "Sizhu Lu",
+        "Sijia Li",
+        "Moran Guo",
+        "Shengyi Li"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "ICML",
+      "primary_topic": "measurement-error-and-inference",
+      "topics": [
+        "measurement-error-and-inference",
+        "validation-and-comparability"
+      ],
+      "summary_zh": "将LLM分类或评审标签看作带误差的测量代理，比较误分类校正与人工校准的预测辅助估计，并用有效影响函数分析总体均值估计的效率。作者代码将总体比例作为明确使用场景。",
+      "relevance_zh": "直接服务于把文本分类标签聚合为总体比例或均值时的误差校正；连接有限人工标注、代理标签与下游统计量，不是只比较分类榜单或因为其他库已有收录。",
+      "limitations_zh": "原论文侧重LLM评测均值和胜率，代码另支持一般分类比例；这些统计校正不验证构念定义，也不消除人工标签本身的系统性偏差。仅读官方摘要及代码README，未审计证明、校准设计或有限样本覆盖率；理论方差优势依条件而定，代码确认未运行。",
+      "doi": null,
+      "arxiv_id": null,
+      "openreview_id": "tPcL3fgkjc",
+      "official_url": "https://proceedings.mlr.press/v306/chen26cq.html",
+      "paper_url": "https://proceedings.mlr.press/v306/chen26cq.html",
+      "code_url": "https://github.com/yiqunchen/debias-llm-as-a-judge",
+      "publication_type": "conference-paper",
+      "track": "main",
+      "publication_status": "published",
+      "collection": "main",
+      "discipline": [
+        "cs",
+        "statistics"
+      ],
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-25",
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v306/chen26cq.html",
+          "purpose": "publication",
+          "checked_on": "2026-11-25",
+          "note_zh": "官方PMLR306:15836–15860核验ICML2026主会、题名与五位作者；OpenReviewID来自PMLR，不以受限forum页面替代发表证明。"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v306/chen26cq.html",
+          "purpose": "content",
+          "checked_on": "2026-11-25",
+          "note_zh": "摘要支持均值/胜率、测量误差与预测辅助推断比较；仅读摘要，不补写未审计的假设和数值保证。"
+        },
+        {
+          "url": "https://github.com/yiqunchen/debias-llm-as-a-judge",
+          "purpose": "content",
+          "checked_on": "2026-11-25",
+          "note_zh": "PMLR链接的作者代码README明确一般分类器总体比例校正；本轮打开核验、未安装或运行。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web",
+        "existing-repo"
+      ],
+      "publication_dates": {},
+      "related_repos": [
+        {
+          "repo": "good_llm_stats_papers",
+          "id": "w-1150189e91e2",
+          "url": "https://github.com/sjsj0101/good_llm_stats_papers/blob/main/data/papers.yaml"
+        }
+      ]
     }
   ],
   "reading_routes": [
@@ -4486,6 +4557,13 @@
         "albert-2023-jangle-jingle"
       ],
       "scope_zh": "合并本轮两条库记录后补入1篇正式构念测量研究；按2023在线年归档、2024卷期另存。累计EDITH收录28；原基线74查询/180记录及阅读路线不变。"
+    },
+    {
+      "checked_on": "2026-11-25",
+      "added_ids": [
+        "chen-2026-noisy-judge-inference"
+      ],
+      "scope_zh": "独立核验文本测量误差与总体比例推断相关性后补入ICML主会论文，与LLM库已有记录关联；单库去重，原2026-11-09基线与阅读路线保留。"
     }
   ]
 }

@@ -1564,6 +1564,27 @@
         "albert-2023-jangle-jingle"
       ],
       "limitations_zh": "2条库记录对应1篇研究，DOI/题名/作者合并；由库发现、网络核验，仅计1次新增。官方摘要支持收录，未审计正文方法或复现。原2026-11-09全库基线统计不改，定向增补不表示全覆盖。"
+    },
+    {
+      "checked_on": "2026-11-25",
+      "source": "EDITH current corpus + official PMLR/author-linked code README",
+      "queries": [
+        "LLM measurement error",
+        "noisy annotation inference",
+        "coding validity"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 0,
+      "unique_returned_hits": 0,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 1,
+      "web_new_supplement_count": 0,
+      "added_ids": [
+        "chen-2026-noisy-judge-inference"
+      ],
+      "limitations_zh": "本轮精确短语零命中不代表无相关研究。原文摘要与代码README层级，独立评估本库相关性而非自动跨库复制；代码未运行、不证明构念效度或任意误差下有效。"
     }
   ]
 }

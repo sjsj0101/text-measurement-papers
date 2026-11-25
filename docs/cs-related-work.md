@@ -70,6 +70,7 @@
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
+| 2026 · ICML · 主会 | [Efficient Inference for Noisy LLM-as-a-Judge Evaluation](https://proceedings.mlr.press/v306/chen26cq.html)<br>[解读与来源](../topics/measurement-error-and-inference.md#chen-2026-noisy-judge-inference) | 直接服务于把文本分类标签聚合为总体比例或均值时的误差校正；连接有限人工标注、代理标签与下游统计量，不是只比较分类榜单或因为其他库已有收录。 |
 | 2023 · NeurIPS · 主会 | [Using Imperfect Surrogates for Downstream Inference: Design-based Supervised Learning for Social Science Applications of Large Language Models](https://papers.neurips.cc/paper_files/paper/2023/hash/d862f7f5445255090de13b825b880d59-Abstract-Conference.html)<br>[解读与来源](../topics/measurement-error-and-inference.md#egami-2023-imperfect-surrogates) | 直接回答如何把 LLM 或其他分类器的代理标签用于统计推断，而不只评价标签预测准确率。 |
 | 2026 · arXiv · 预印本 | [Counting Under Disagreement: Dollar-Weighted Measurement, Selective Machine Labelling and Budgeted Human Review from Disagreeing AI Readers of Administrative Text](https://arxiv.org/abs/2611.13215)<br>[解读与来源](../topics/measurement-error-and-inference.md#koomullil-2026-counting-disagreement) | 直接连接文本标签误差、总体加权估计和人工验证样本的选择，说明标注准确率、金额误差与区间有效性不是同一评价目标。 |
 
