@@ -64,6 +64,7 @@
 | 2026 · arXiv · 预印本 | [Same Text, Different Numbers: The Divergence of LLM-Based Measures](https://arxiv.org/abs/2609.31013)<br>[解读与来源](../topics/validation-and-comparability.md#boustanifar-2026-same-text-different-numbers) | 直接检验模型选择是否改变同一构念的文本变量及下游推断，适合设计跨模型稳健性和测量可比性检查，而非仅把金融文本作为应用。 |
 | 2026 · MultiPsyche · Workshop | [The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP](https://aclanthology.org/2026.multipsyche-1.5/)<br>[解读与来源](../topics/validation-and-comparability.md#zaghouani-2026-label-translation-fallacy) | 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。 |
 | 2026 · arXiv · 预印本 | [The Measurement Revolution? Credible Measurement and Inference in the Age of AI](https://arxiv.org/abs/2608.23524)<br>[解读与来源](../topics/validation-and-comparability.md#dell-2026-measurement-revolution) | 直接连接文本等非结构化材料的变量构造、构念判断、验证设计与下游推断，可作为阅读具体标注和误差校正方法之前的研究地图。 |
+| 2026 · arXiv · 预印本 | [When the Text Is Silent: Memory Shortcuts and the Validity of LLM Annotation under Evidence Insufficiency](https://arxiv.org/abs/2611.02273)<br>[解读与来源](../topics/validation-and-comparability.md#wang-2026-text-silent-memory-shortcuts) | 直接检验文本变量的证据来源，说明标签在现实中正确不等于对给定文本的有效测量；验证集应同时测试证据冲突和证据缺失，而非仅核对外部事实。 |
 
 
 ## 测量误差与下游推断

@@ -1585,6 +1585,27 @@
         "chen-2026-noisy-judge-inference"
       ],
       "limitations_zh": "本轮精确短语零命中不代表无相关研究。原文摘要与代码README层级，独立评估本库相关性而非自动跨库复制；代码未运行、不证明构念效度或任意误差下有效。"
+    },
+    {
+      "checked_on": "2026-11-27",
+      "source": "EDITH current corpus + arXiv original records and selected HTML limitations",
+      "queries": [
+        "memory shortcuts",
+        "annotation validity",
+        "counterfactual annotation"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 0,
+      "unique_returned_hits": 0,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "wang-2026-text-silent-memory-shortcuts"
+      ],
+      "limitations_zh": "仅定向查询与选段阅读；零命中不是无相关研究，不改2026-11-09基线统计。按研究对象、设计与原始身份区分同作者两篇预印本，未确认正式录用或复现实验。"
     }
   ]
 }

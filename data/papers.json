@@ -4143,6 +4143,62 @@
           "url": "https://github.com/sjsj0101/good_llm_stats_papers/blob/main/data/papers.yaml"
         }
       ]
+    },
+    {
+      "id": "wang-2026-text-silent-memory-shortcuts",
+      "title": "When the Text Is Silent: Memory Shortcuts and the Validity of LLM Annotation under Evidence Insufficiency",
+      "authors": [
+        "Wenchang Wang",
+        "Yue Song"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "arXiv",
+      "primary_topic": "validation-and-comparability",
+      "topics": [
+        "validation-and-comparability",
+        "annotation-and-judgment",
+        "construct-operationalization"
+      ],
+      "summary_zh": "用受控文本区分显式证据与模型对知名人物的已有知识。作者报告：部分模型在文本缺少相关属性时会生成符合人物事实却无文本依据的标签；提示中的激励与去身份处理会影响这种现象。",
+      "relevance_zh": "直接检验文本变量的证据来源，说明标签在现实中正确不等于对给定文本的有效测量；验证集应同时测试证据冲突和证据缺失，而非仅核对外部事实。",
+      "limitations_zh": "仅核验预印本，未确认正式会议或期刊录用及作者代码。仅读摘要与第7节限制，未通读或复现。实验采用短模板、每提示单次生成及高知名度英语人物，不能直接外推到自然语料、其他语言或所有模型；去身份处理有属性特定代价。记忆捷径是行为诊断，不是内部机制的直接观测。",
+      "doi": null,
+      "arxiv_id": "2611.02273",
+      "official_url": "https://arxiv.org/abs/2611.02273",
+      "paper_url": "https://arxiv.org/abs/2611.02273",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "discipline": [
+        "cs",
+        "social-science"
+      ],
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-27",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.02273",
+          "purpose": "publication",
+          "checked_on": "2026-11-27",
+          "note_zh": "arXiv确认题名、两位作者及2026-11-01首发v1；仅证明预印本，不推断录用。与同作者2611.02491分别核对任务和摘要，非同一研究重复版本。"
+        },
+        {
+          "url": "https://arxiv.org/html/2611.02273v1",
+          "purpose": "content",
+          "checked_on": "2026-11-27",
+          "note_zh": "阅读摘要与第7节限制；未通读其他方法、结果或复现，不把人物事实正确当作文本测量有效。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "first_preprint": "2026-11-01"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -4564,6 +4620,13 @@
         "chen-2026-noisy-judge-inference"
       ],
       "scope_zh": "独立核验文本测量误差与总体比例推断相关性后补入ICML主会论文，与LLM库已有记录关联；单库去重，原2026-11-09基线与阅读路线保留。"
+    },
+    {
+      "checked_on": "2026-11-27",
+      "added_ids": [
+        "wang-2026-text-silent-memory-shortcuts"
+      ],
+      "scope_zh": "定向补入证据缺失与记忆捷径标注审计预印本；与同作者身份替换研究区分，原基线与阅读路线不变。"
     }
   ]
 }

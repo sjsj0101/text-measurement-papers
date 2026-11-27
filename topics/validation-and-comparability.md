@@ -218,7 +218,7 @@
 
 **主题：** 测量验证与可比性 · 构念定义与操作化
 
-## 补充（7 篇）
+## 补充（8 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
@@ -229,6 +229,7 @@
 | 2026 · MultiPsyche · Workshop | [The Label-Translation Fallacy: A Four-Layer Validity Protocol for Multilingual Mental Health NLP](https://aclanthology.org/2026.multipsyche-1.5/)<br>[解读与来源](../topics/validation-and-comparability.md#zaghouani-2026-label-translation-fallacy) | 将跨语言文本分类的预测分数与构念等价、量表适配和标注证据分开，直接服务文本变量的跨情境验证。 |
 | 2026 · arXiv · 预印本 | [The Measurement Revolution? Credible Measurement and Inference in the Age of AI](https://arxiv.org/abs/2608.23524)<br>[解读与来源](../topics/validation-and-comparability.md#dell-2026-measurement-revolution) | 直接连接文本等非结构化材料的变量构造、构念判断、验证设计与下游推断，可作为阅读具体标注和误差校正方法之前的研究地图。 |
 | 2026 · Finance and Economics Discussion Series · 预印本 | [Validating Large Language Model Annotations](https://www.federalreserve.gov/econres/feds/files/2026020pap.pdf)<br>[解读与来源](../topics/validation-and-comparability.md#hansen-2026-validating-llm-annotations) | 提供一种探索性的无外部基准验证思路，可与独立人工基准及测量误差校正方法对照阅读。 |
+| 2026 · arXiv · 预印本 | [When the Text Is Silent: Memory Shortcuts and the Validity of LLM Annotation under Evidence Insufficiency](https://arxiv.org/abs/2611.02273)<br>[解读与来源](../topics/validation-and-comparability.md#wang-2026-text-silent-memory-shortcuts) | 直接检验文本变量的证据来源，说明标签在现实中正确不等于对给定文本的有效测量；验证集应同时测试证据冲突和证据缺失，而非仅核对外部事实。 |
 
 
 <a id="pita-2026-correct-codes"></a>
@@ -393,6 +394,30 @@
 - [publication](https://www.federalreserve.gov/econres/feds/files/2026020pap.pdf)：已打开官方 FEDS PDF，核读封面、摘要、引言及第 6 节局限；封面明示为 preliminary staff working paper。（2026-11-09）
 
 **主题：** 测量验证与可比性 · 文本标注与人工判断
+
+<a id="wang-2026-text-silent-memory-shortcuts"></a>
+### When the Text Is Silent: Memory Shortcuts and the Validity of LLM Annotation under Evidence Insufficiency
+
+**2026 · arXiv · 预印本** · 预印本／工作论文 · 补充
+
+**作者：** Wenchang Wang; Yue Song
+
+**研究内容：** 用受控文本区分显式证据与模型对知名人物的已有知识。作者报告：部分模型在文本缺少相关属性时会生成符合人物事实却无文本依据的标签；提示中的激励与去身份处理会影响这种现象。
+
+**为什么读：** 直接检验文本变量的证据来源，说明标签在现实中正确不等于对给定文本的有效测量；验证集应同时测试证据冲突和证据缺失，而非仅核对外部事实。
+
+**适用条件与限制：** 仅核验预印本，未确认正式会议或期刊录用及作者代码。仅读摘要与第7节限制，未通读或复现。实验采用短模板、每提示单次生成及高知名度英语人物，不能直接外推到自然语料、其他语言或所有模型；去身份处理有属性特定代价。记忆捷径是行为诊断，不是内部机制的直接观测。
+
+**本轮证据：** 部分正文；核验日期 2026-11-27。未独立复现实验。
+
+**来源：**
+
+- [publication](https://arxiv.org/abs/2611.02273)：arXiv确认题名、两位作者及2026-11-01首发v1；仅证明预印本，不推断录用。与同作者2611.02491分别核对任务和摘要，非同一研究重复版本。（2026-11-27）
+- [content](https://arxiv.org/html/2611.02273v1)：阅读摘要与第7节限制；未通读其他方法、结果或复现，不把人物事实正确当作文本测量有效。（2026-11-27）
+
+**年份与版本说明：** first_preprint：2026-11-01
+
+**主题：** 测量验证与可比性 · 文本标注与人工判断 · 构念定义与操作化
 
 ## 跨主题阅读
 
