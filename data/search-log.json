@@ -1606,6 +1606,27 @@
         "wang-2026-text-silent-memory-shortcuts"
       ],
       "limitations_zh": "仅定向查询与选段阅读；零命中不是无相关研究，不改2026-11-09基线统计。按研究对象、设计与原始身份区分同作者两篇预印本，未确认正式录用或复现实验。"
+    },
+    {
+      "checked_on": "2026-11-28",
+      "source": "EDITH current corpus + original arXiv metadata and abstract",
+      "queries": [
+        "text evidence annotation",
+        "construct measurement LLM",
+        "annotation validity audit"
+      ],
+      "year_from": 2022,
+      "year_to": 2026,
+      "summed_query_hits": 0,
+      "unique_returned_hits": 0,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "tai-2026-codebook-audit"
+      ],
+      "limitations_zh": "定向查询与摘要核验，不代表全覆盖；未核验正式录用、代码或复现。原2026-11-09基线及累计EDITH收录数不变。"
     }
   ]
 }

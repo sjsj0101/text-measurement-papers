@@ -4199,6 +4199,62 @@
         "first_preprint": "2026-11-01"
       },
       "related_repos": []
+    },
+    {
+      "id": "tai-2026-codebook-audit",
+      "title": "When F1 Is Not Enough: Auditing Codebooks for LLM-Assisted Annotation",
+      "authors": [
+        "Yuehong Cassandra Tai",
+        "Qunhua Li"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "arXiv",
+      "primary_topic": "construct-operationalization",
+      "topics": [
+        "construct-operationalization",
+        "annotation-and-judgment",
+        "validation-and-comparability"
+      ],
+      "summary_zh": "把标注误差区分为模型问题、编码规则缺陷与参照标签不一致，先用类别混淆和逐文档检查定位边界，再修订规则并做留出评价。作者在两个已有编码手册上展示审计流程，发现部分改进跨模型适用、部分依赖具体标注器。",
+      "relevance_zh": "直接将研究定义、书面编码规则和标注验证连接起来，避免只凭整体F1决定更换模型或增加训练，而忽略测量工具本身的歧义。",
+      "limitations_zh": "仅核验arXiv预印本与摘要，未确认正式录用或作者代码，未通读或复现。两个编码手册与两种标注器的结果不能保证普遍有效；修改规则可能改变操作定义，须保留理论边界，并用未参与修订的数据独立检验。",
+      "doi": null,
+      "arxiv_id": "2611.08846",
+      "official_url": "https://arxiv.org/abs/2611.08846",
+      "paper_url": "https://arxiv.org/abs/2611.08846",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "discipline": [
+        "cs",
+        "social-science"
+      ],
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-28",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.08846",
+          "purpose": "publication",
+          "checked_on": "2026-11-28",
+          "note_zh": "官方arXiv确认题名、两位作者及2026-11-06首发v1，仅证明预印本，不推断正式录用。"
+        },
+        {
+          "url": "https://arxiv.org/abs/2611.08846",
+          "purpose": "content",
+          "checked_on": "2026-11-28",
+          "note_zh": "摘要支持部署前编码规则审计、留出评价和模型间差异；未审计完整方法或复现，规则修订不自动证明构念效度。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "web"
+      ],
+      "publication_dates": {
+        "first_preprint": "2026-11-06"
+      },
+      "related_repos": []
     }
   ],
   "reading_routes": [
@@ -4627,6 +4683,13 @@
         "wang-2026-text-silent-memory-shortcuts"
       ],
       "scope_zh": "定向补入证据缺失与记忆捷径标注审计预印本；与同作者身份替换研究区分，原基线与阅读路线不变。"
+    },
+    {
+      "checked_on": "2026-11-28",
+      "added_ids": [
+        "tai-2026-codebook-audit"
+      ],
+      "scope_zh": "定向补入部署前编码规则审计预印本，仅补充、摘要级；保留原基线与阅读路线。"
     }
   ]
 }

@@ -12,6 +12,7 @@
 | --- | --- | --- |
 | 2026 · ACL · Industry | [Beyond Instruction Optimization: Multi-Agent Error-Driven Class Description Refinement for LLM-Based Classification](https://aclanthology.org/2026.acl-industry.137/)<br>[解读与来源](../topics/construct-operationalization.md#dev-2026-class-description-refinement) | 直接连接概念定义、标签规则和分类误差，适合讨论编码手册如何转为模型可执行的测量规则。 |
 | 2026 · Behavior Research Methods · 期刊 | [Measuring complex constructs in large-scale text with computational social mixed methods](https://link.springer.com/article/10.3758/s13428-026-03046-5)<br>[解读与来源](../topics/construct-operationalization.md#herderich-2026-complex-constructs) | 直接回答如何从研究构念和编码规则构造文本变量，并让变量误差进入后续分析，而不只优化分类分数。 |
+| 2026 · arXiv · 预印本 | [When F1 Is Not Enough: Auditing Codebooks for LLM-Assisted Annotation](https://arxiv.org/abs/2611.08846)<br>[解读与来源](../topics/construct-operationalization.md#tai-2026-codebook-audit) | 直接将研究定义、书面编码规则和标注验证连接起来，避免只凭整体F1决定更换模型或增加训练，而忽略测量工具本身的歧义。 |
 
 
 ## 文本标注与人工判断
