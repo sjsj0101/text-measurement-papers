@@ -49,13 +49,14 @@
 <a id="inference"></a>
 ## 从生成变量到回归推断
 
-沿个体误分类、聚合误差和验证标签的推断用途阅读；再回到任务特有假设。
+沿个体误分类、聚合误差和验证标签的推断用途阅读；最后用生成预期代理人类测量的案例检查任务特有假设。
 
 1. [Mind the Gap: Accounting for Measurement Error and Misclassification in Variables Generated via Data Mining](../topics/measurement-error-and-inference.md#yang-2018-mind-the-gap) — 为把文本预测分数当作观测变量的实证研究提供误差诊断和校正入口。
 2. [Correcting Misclassification Bias in Regression Models with Variables Generated via Data Mining](../topics/measurement-error-and-inference.md#qiao-2021-misclassification-bias) — 直接处理从文本分类标签到回归推断的误差传播，区分预测指标与目标参数精度。
 3. [Correcting Measurement Error in Regression Models with Variables Constructed from Aggregated Output of Data Mining Models](../topics/measurement-error-and-inference.md#qiao-2025-aggregated-measurement-error) — 覆盖评论情感等个体预测聚合为产品或组织变量后的测量误差，补充逐条标签校正。
 4. [Using Imperfect Surrogates for Downstream Inference: Design-based Supervised Learning for Social Science Applications of Large Language Models](../topics/measurement-error-and-inference.md#egami-2023-imperfect-surrogates) — 直接回答如何把 LLM 或其他分类器的代理标签用于统计推断，而不只评价标签预测准确率。
 5. [Prediction-powered inference](../topics/measurement-error-and-inference.md#angelopoulos-2023-prediction-powered-inference) — 为文本变量的验证预算提供推断起点：独立标签既用于检查分类质量，也可用于校正估计。
+6. [Completions, Not Convictions: Can LLM Outputs Proxy for Human Expectations?](../topics/measurement-error-and-inference.md#nagel-2026-completions-not-convictions) — 为生成变量的测量有效性与下游推断提供边界案例：回答看似合理，不等于保留目标群体的分布或变量关系。研究重点是生成预期的代理有效性，距从既有文本提取研究构念仍有一步，因此作为邻近测量方法列入补充，并与测量验证主题交叉阅读。
 
 <a id="human-workflow"></a>
 ## 人工判断与验证报告

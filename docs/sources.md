@@ -2,7 +2,7 @@
 
 [返回目录](../README.md) · [可复查的查询与筛选摘要](../data/search-log.json)
 
-本版是截至 **2026-11-09** 的精选文献快照，收录51篇主目录和12篇补充。它以研究问题组织材料，不声称系统综述、全部相关文献或任何venue-year单元的完整覆盖。
+基础快照截至 **2026-11-09**，当时收录51篇主目录和12篇补充；后续定向更新见[检索摘要](../data/search-log.json)和下方记录，当前计数以[目录首页](../README.md)为准。目录以研究问题组织材料，不声称系统综述、全部相关文献或任何venue-year单元的完整覆盖。
 
 ## 种子与新增
 
@@ -10,7 +10,7 @@
 
 另从EDITH命中中新增4篇：ITEM Ontology、RAD、PassivePy及叙事性文本测量研究。每篇的原始来源、中文说明、相关性和证据限制见主题详情。初始种子仅用于发现，不能作为发表身份证据。
 
-## 本轮EDITH检索
+## 基础快照的EDITH检索
 
 2026-11-09使用当前原生FTS5入口，查询当时包含41,873条记录的本机文献库；数据库以只读方式打开，执行前后内容校验和一致。
 
@@ -49,3 +49,11 @@
 后续优先事项是核验上述9个题名、扩展未返回的测量误差候选，以及根据实际选定的研究问题补足非英语文本、跨领域等值和独立真实标签评价。20个候选方向只是阅读与设计入口，其新颖性尚未做逐项充分检索论证。
 
 私有库记录、完整摘要、全文、原始响应与本机路径不进入公开目录。本机维护日志由排除提交的HANDOFF记录位置。
+
+## 2026-11-28：生成预期的测量与推断
+
+定向交叉收录[Completions, Not Convictions](../topics/measurement-error-and-inference.md#nagel-2026-completions-not-convictions)，新增1篇补充，目录现为54篇主目录、24篇补充、0篇待核验。它检验LLM生成预期能否代理人类测量，为测量误差与下游推断提供邻近方法案例；与从既有文本提取研究构念的任务仍有区别，故列为补充。关联`good_llm_stats_papers`中的稳定ID `w-80fc1332fb32`，本库内只计一次。
+
+本轮重新查询当前EDITH文献库的全部配置期刊与年份：四项FTS元数据查询分别为`"Completions" AND "Convictions"`、`"LLM Outputs" AND "Human Expectations"`、`"LLM Probabilities" AND "Human Beliefs"`及`"Nagel" AND "Tseng" AND "Xiu"`，另按题名片段和DOI核对。查询全部成功、零命中、无截断，EDITH最终纳入0篇；经网络来源核验的跨库候选纳入1篇。此次定向身份查询不改变基础快照、累计EDITH收录数或历史覆盖缺口；公开记录见[增量检索摘要](../data/search-log.json)。
+
+[SSRN原始记录](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538)的可读检索内容支持当前题名、三位作者、DOI、2026-08-13首发及2026-11-09修订；直接访问返回403。[Chicago Booth官方页](https://www.chicagobooth.edu/research/fama-miller/finance-research/working-papers/2026/completions-not-convictions)交叉确认当前摘要与工作论文身份。本轮证据限于摘要与书目，未取得最新修订版全文或确认正式录用，未复现实验；继承的旧题名仅用于版本去重，不把旧稿局部阅读当作新版全文证据。

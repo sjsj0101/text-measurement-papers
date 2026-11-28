@@ -155,13 +155,42 @@
 
 **主题：** 测量误差与下游推断 · 测量验证与可比性
 
-## 补充（2 篇）
+## 补充（3 篇）
 
 | 年份 / 来源 | 论文 | 阅读价值 |
 | --- | --- | --- |
+| 2026 · SSRN · 预印本 | [Completions, Not Convictions: Can LLM Outputs Proxy for Human Expectations?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538)<br>[解读与来源](../topics/measurement-error-and-inference.md#nagel-2026-completions-not-convictions) | 为生成变量的测量有效性与下游推断提供边界案例：回答看似合理，不等于保留目标群体的分布或变量关系。研究重点是生成预期的代理有效性，距从既有文本提取研究构念仍有一步，因此作为邻近测量方法列入补充，并与测量验证主题交叉阅读。 |
 | 2026 · arXiv · 预印本 | [Counting Under Disagreement: Dollar-Weighted Measurement, Selective Machine Labelling and Budgeted Human Review from Disagreeing AI Readers of Administrative Text](https://arxiv.org/abs/2611.13215)<br>[解读与来源](../topics/measurement-error-and-inference.md#koomullil-2026-counting-disagreement) | 直接连接文本标签误差、总体加权估计和人工验证样本的选择，说明标注准确率、金额误差与区间有效性不是同一评价目标。 |
 | 2018 · The Annals of Applied Statistics · 期刊 | [Statistical paradises and paradoxes in big data (I): Law of large populations, big data paradox, and the 2016 US presidential election](https://doi.org/10.1214/18-AOAS1161SF)<br>[解读与来源](../topics/measurement-error-and-inference.md#meng-2018-big-data-paradox) | 作为辅助统计背景，帮助区分增加可编码文本数量与改善目标总体覆盖；低标注成本本身不是代表性证据。 |
 
+
+<a id="nagel-2026-completions-not-convictions"></a>
+### Completions, Not Convictions: Can LLM Outputs Proxy for Human Expectations?
+
+**2026 · SSRN · 预印本** · 预印本／工作论文 · 补充
+
+**作者：** Stefan Nagel; Claire Tseng; Dacheng Xiu
+
+**研究内容：** 以预测市场、分析师预测和家庭调查中的人类预期为参照，检验LLM生成预期能否充当测量代理。作者报告，替换为生成数据会扭曲部分群体差异和回归结论；利用真人验证数据的predict-then-debias校正可缩小所考察的回归系数差距。
+
+**为什么读：** 为生成变量的测量有效性与下游推断提供边界案例：回答看似合理，不等于保留目标群体的分布或变量关系。研究重点是生成预期的代理有效性，距从既有文本提取研究构念仍有一步，因此作为邻近测量方法列入补充，并与测量验证主题交叉阅读。
+
+**适用条件与限制：** 本轮仅核验当前官方摘要和书目记录，未取得2026-11-09修订版全文、未确认正式发表或录用，未复现实验。SSRN直接访问受限，作者和版本信息来自其可读检索记录，摘要与工作论文身份由Chicago Booth页面交叉核对。不把旧版局部阅读当作新版证据，也不将特定模型与场景的结果推广为所有LLM均无法代理人类预期。
+
+**本轮证据：** 摘要；核验日期 2026-11-28。未独立复现实验。
+
+**来源：**
+
+- [publication](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538)：SSRN原始页面的可读检索记录确认当前题名、三位作者、DOI、2026-08-13首发及2026-11-09最近修订；直接打开返回403。仅证明工作论文记录，不证明正式录用。（2026-11-28）
+- [content](https://www.chicagobooth.edu/research/fama-miller/finance-research/working-papers/2026/completions-not-convictions)：Fama-Miller官方页可读当前题名、摘要和Working Paper标识；支持三类人类预期参照、替代后的群体差异与回归偏差，以及真人验证数据的校正作用。页面仅链接两位本校教师，完整作者顺序以SSRN为准。（2026-11-28）
+
+**年份与版本说明：** 预印本首发：2026-08-13；latest_revision_date：2026-11-09
+
+**版本说明：** 按SSRN当前Human Expectations题名收录；最近修订记录标记80页，本轮未读该版全文。两个Human Beliefs旧题名沿用既有LLM统计目录的版本关联，不另计论文，也不将旧稿的数值结果移植到当前版本。
+
+**其他目录：** [good_llm_stats_papers](https://github.com/sjsj0101/good_llm_stats_papers/blob/main/data/supplementary.yaml)
+
+**主题：** 测量误差与下游推断 · 测量验证与可比性
 
 <a id="koomullil-2026-counting-disagreement"></a>
 ### Counting Under Disagreement: Dollar-Weighted Measurement, Selective Machine Labelling and Budgeted Human Review from Disagreeing AI Readers of Administrative Text

@@ -8,7 +8,7 @@
 
 Constructs → Text Variables → Measurement Validation
 
-**54 篇主目录 · 23 篇补充 · 0 条待核验 · 基线检索日期 2026-11-09**
+**54 篇主目录 · 24 篇补充 · 0 条待核验 · 基线检索日期 2026-11-09**
 
 </div>
 
@@ -29,9 +29,9 @@ Constructs → Text Variables → Measurement Validation
 | 统计口径 | 数量 |
 | --- | ---: |
 | 主目录 | 54 |
-| 补充 | 23 |
+| 补充 | 24 |
 | 待核验（不计入收录） | 0 |
-| 去重收录总数 | 77 |
+| 去重收录总数 | 78 |
 | EDITH基线检索返回的唯一库记录 | 180 |
 | EDITH命中后累计收录的研究 | 28 |
 
@@ -53,7 +53,7 @@ Constructs → Text Variables → Measurement Validation
 | [文本标注与人工判断](topics/annotation-and-judgment.md) | 6 | 4 |
 | [合成数据与小模型适配](topics/synthetic-data-and-adaptation.md) | 13 | 4 |
 | [测量验证与可比性](topics/validation-and-comparability.md) | 9 | 8 |
-| [测量误差与下游推断](topics/measurement-error-and-inference.md) | 6 | 2 |
+| [测量误差与下游推断](topics/measurement-error-and-inference.md) | 6 | 3 |
 | [人机协作与使用条件](topics/human-ai-workflows.md) | 2 | 4 |
 
 ## Paper Index

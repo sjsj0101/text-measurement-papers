@@ -4255,6 +4255,76 @@
         "first_preprint": "2026-11-06"
       },
       "related_repos": []
+    },
+    {
+      "id": "nagel-2026-completions-not-convictions",
+      "title": "Completions, Not Convictions: Can LLM Outputs Proxy for Human Expectations?",
+      "title_aliases": [
+        "Completions, Not Convictions: Can LLM Probabilities Proxy for Human Beliefs?",
+        "Completions, Not Convictions: Can LLM Outputs Proxy for Human Beliefs?"
+      ],
+      "authors": [
+        "Stefan Nagel",
+        "Claire Tseng",
+        "Dacheng Xiu"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "SSRN",
+      "publication_type": "preprint",
+      "track": "preprint",
+      "publication_status": "preprint",
+      "collection": "supplement",
+      "primary_topic": "measurement-error-and-inference",
+      "topics": [
+        "measurement-error-and-inference",
+        "validation-and-comparability"
+      ],
+      "discipline": [
+        "economics",
+        "statistics",
+        "social-science"
+      ],
+      "summary_zh": "以预测市场、分析师预测和家庭调查中的人类预期为参照，检验LLM生成预期能否充当测量代理。作者报告，替换为生成数据会扭曲部分群体差异和回归结论；利用真人验证数据的predict-then-debias校正可缩小所考察的回归系数差距。",
+      "relevance_zh": "为生成变量的测量有效性与下游推断提供边界案例：回答看似合理，不等于保留目标群体的分布或变量关系。研究重点是生成预期的代理有效性，距从既有文本提取研究构念仍有一步，因此作为邻近测量方法列入补充，并与测量验证主题交叉阅读。",
+      "limitations_zh": "本轮仅核验当前官方摘要和书目记录，未取得2026-11-09修订版全文、未确认正式发表或录用，未复现实验。SSRN直接访问受限，作者和版本信息来自其可读检索记录，摘要与工作论文身份由Chicago Booth页面交叉核对。不把旧版局部阅读当作新版证据，也不将特定模型与场景的结果推广为所有LLM均无法代理人类预期。",
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-28",
+      "official_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538",
+      "paper_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538",
+      "doi": "10.2139/ssrn.7265538",
+      "arxiv_id": null,
+      "sources": [
+        {
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538",
+          "purpose": "publication",
+          "checked_on": "2026-11-28",
+          "note_zh": "SSRN原始页面的可读检索记录确认当前题名、三位作者、DOI、2026-08-13首发及2026-11-09最近修订；直接打开返回403。仅证明工作论文记录，不证明正式录用。"
+        },
+        {
+          "url": "https://www.chicagobooth.edu/research/fama-miller/finance-research/working-papers/2026/completions-not-convictions",
+          "purpose": "content",
+          "checked_on": "2026-11-28",
+          "note_zh": "Fama-Miller官方页可读当前题名、摘要和Working Paper标识；支持三类人类预期参照、替代后的群体差异与回归偏差，以及真人验证数据的校正作用。页面仅链接两位本校教师，完整作者顺序以SSRN为准。"
+        }
+      ],
+      "seed_numbers": [],
+      "discovered_via": [
+        "existing-repo",
+        "web"
+      ],
+      "publication_dates": {
+        "preprint_date": "2026-08-13",
+        "latest_revision_date": "2026-11-09"
+      },
+      "version_note_zh": "按SSRN当前Human Expectations题名收录；最近修订记录标记80页，本轮未读该版全文。两个Human Beliefs旧题名沿用既有LLM统计目录的版本关联，不另计论文，也不将旧稿的数值结果移植到当前版本。",
+      "related_repos": [
+        {
+          "repo": "good_llm_stats_papers",
+          "id": "w-80fc1332fb32",
+          "url": "https://github.com/sjsj0101/good_llm_stats_papers/blob/main/data/supplementary.yaml"
+        }
+      ]
     }
   ],
   "reading_routes": [
@@ -4304,13 +4374,14 @@
     {
       "id": "inference",
       "title": "从生成变量到回归推断",
-      "description_zh": "沿个体误分类、聚合误差和验证标签的推断用途阅读；再回到任务特有假设。",
+      "description_zh": "沿个体误分类、聚合误差和验证标签的推断用途阅读；最后用生成预期代理人类测量的案例检查任务特有假设。",
       "paper_ids": [
         "yang-2018-mind-the-gap",
         "qiao-2021-misclassification-bias",
         "qiao-2025-aggregated-measurement-error",
         "egami-2023-imperfect-surrogates",
-        "angelopoulos-2023-prediction-powered-inference"
+        "angelopoulos-2023-prediction-powered-inference",
+        "nagel-2026-completions-not-convictions"
       ]
     },
     {
@@ -4690,6 +4761,13 @@
         "tai-2026-codebook-audit"
       ],
       "scope_zh": "定向补入部署前编码规则审计预印本，仅补充、摘要级；保留原基线与阅读路线。"
+    },
+    {
+      "checked_on": "2026-11-28",
+      "added_ids": [
+        "nagel-2026-completions-not-convictions"
+      ],
+      "scope_zh": "按用户指定将Completions, Not Convictions交叉收录为补充；聚焦生成预期的测量误差与下游推断，当前修订版限于摘要证据，不扩大系统覆盖声明。"
     }
   ]
 }

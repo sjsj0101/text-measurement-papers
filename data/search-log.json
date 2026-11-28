@@ -1627,6 +1627,34 @@
         "tai-2026-codebook-audit"
       ],
       "limitations_zh": "定向查询与摘要核验，不代表全覆盖；未核验正式录用、代码或复现。原2026-11-09基线及累计EDITH收录数不变。"
+    },
+    {
+      "checked_on": "2026-11-28",
+      "source": "EDITH current corpus + SSRN indexed record + Chicago Booth official abstract + existing-repo identity cross-check",
+      "queries": [
+        "\"Completions\" AND \"Convictions\"",
+        "\"LLM Outputs\" AND \"Human Expectations\"",
+        "\"LLM Probabilities\" AND \"Human Beliefs\"",
+        "\"Nagel\" AND \"Tseng\" AND \"Xiu\""
+      ],
+      "identity_cross_check": {
+        "title_like": "%completions%convictions%",
+        "doi": "10.2139/ssrn.7265538",
+        "hit_count": 0
+      },
+      "year_from": null,
+      "year_to": null,
+      "journal_filter": null,
+      "summed_query_hits": 0,
+      "unique_returned_hits": 0,
+      "truncated_queries": 0,
+      "edith_new_included_count": 0,
+      "web_new_main_count": 0,
+      "web_new_supplement_count": 1,
+      "added_ids": [
+        "nagel-2026-completions-not-convictions"
+      ],
+      "limitations_zh": "当前EDITH全库元数据定向身份检索：四项FTS查询及题名/DOI核对均成功、零命中，不代表主题文献不存在或覆盖完成。网络核验限当前摘要和书目；既有仓库中同一研究关联至w-80fc1332fb32。原2026-11-09基线与累计EDITH收录数不变。"
     }
   ]
 }
